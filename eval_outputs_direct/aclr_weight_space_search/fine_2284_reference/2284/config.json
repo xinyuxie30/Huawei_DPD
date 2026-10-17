@@ -1,0 +1,26 @@
+{
+  "model": "2284",
+  "checkpoints": [
+    "D:\\PyChram_project\\Huawei_DPD\\checkpoints\\AI-DPD\\final_main_H15_L6_rich9_FIR43_2284_NMSE40p15_ACLR48p77.pth",
+    "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_three_metric_experiments\\pilot_2284_all_w1e4\\2284\\best.pth",
+    "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_low_nmse_optimization\\refine_2284_pcgrad20\\2284\\pcgrad\\best_interpolated.pth"
+  ],
+  "coeff1": [
+    1.05,
+    1.4,
+    0.05
+  ],
+  "coeff2": [
+    0.6,
+    1.6,
+    0.05
+  ],
+  "objective": "reference",
+  "tag": "fine_2284_reference",
+  "split": 0.8,
+  "reference": {
+    "full": -43.73783656472544,
+    "point": -45.10452191091548,
+    "narrow": -44.99650320556108
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "created_unix": 1784208513.6527846,
+  "data": "D:\\PyChram_project\\Huawei_DPD\\data\\DPD_data.mat",
+  "train_samples": 196608,
+  "validation_samples": 49152,
+  "split": "first 80% train / last 20% validation",
+  "epochs": 150,
+  "batch_size": 64,
+  "frame_length": 1024,
+  "stride_length": 32,
+  "learning_rate": 0.003,
+  "optimizer": "AdamW",
+  "scheduler": "ReduceLROnPlateau(factor=0.5)",
+  "post_training_step": "train-only complex FIR least-squares refit where applicable",
+  "seed": 2026,
+  "dtype": "float32",
+  "torch": "2.11.0+cu128",
+  "python": "3.13.0",
+  "device": "NVIDIA GeForce RTX 5060 Ti",
+  "finalization_seconds_this_invocation": 1.853527545928955,
+  "recorded_model_training_seconds": {
+    "ea_tcn": 94.918,
+    "memory_poly": 36.604,
+    "plain_tcn": 60.067,
+    "no_attention": 92.894,
+    "no_fir": 80.455
+  },
+  "sum_recorded_model_training_seconds": 364.937,
+  "models": [
+    {
+      "key": "ea_tcn",
+      "label": "EA-TCN",
+      "real_multipliers": 2284,
+      "trainable_parameters": 2192
+    },
+    {
+      "key": "memory_poly",
+      "label": "Memory polynomial",
+      "real_multipliers": 2280,
+      "trainable_parameters": 1140
+    },
+    {
+      "key": "plain_tcn",
+      "label": "Plain TCN",
+      "real_multipliers": 2276,
+      "trainable_parameters": 2274
+    },
+    {
+      "key": "no_attention",
+      "label": "EA-TCN w/o attention",
+      "real_multipliers": 2284,
+      "trainable_parameters": 2192
+    },
+    {
+      "key": "no_fir",
+      "label": "EA-TCN w/o FIR",
+      "real_multipliers": 2292,
+      "trainable_parameters": 2286
+    }
+  ]
+}

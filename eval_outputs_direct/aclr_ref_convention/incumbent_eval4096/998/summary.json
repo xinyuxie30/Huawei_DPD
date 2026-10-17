@@ -1,0 +1,33 @@
+{
+  "model": "998",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\fir_pointsweep\\998\\best.pth",
+  "source_offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "selected_offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "selection": "source checkpoint",
+  "nmse_limit_db": -37.0,
+  "source_point_worst_db": -43.57398414756997,
+  "point_gain_db": 0.0,
+  "mac": 998,
+  "nmse_linear": 0.00019565895327378234,
+  "nmse_db": -37.085002741704955,
+  "point_lower_db": -43.57398414756997,
+  "point_upper_db": -43.70517804681444,
+  "point_worst_db": -43.57398414756997,
+  "point_lower_mhz": -159.72,
+  "point_upper_mhz": 131.04,
+  "integrated_aclr_db": -42.10448924298606,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\incumbent_eval4096\\998\\best.pth",
+  "offsets_sidecar": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\incumbent_eval4096\\998\\offsets.json"
+}

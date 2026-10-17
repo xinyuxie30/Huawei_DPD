@@ -1,0 +1,16 @@
+{
+  "label": "796_carved",
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\resqueeze_796\\796\\best.pth",
+  "mac": 796,
+  "mac_limit": null,
+  "nmse_db": -35.30774579414776,
+  "integrated_aclr_db": -39.8663243364446,
+  "point_worst_db": -41.71677550030121,
+  "ref_point_worst_db": -45.10452191091548,
+  "adj_mean_abs_dev_db": 4.939735721072623,
+  "adj_max_notch_db": 4.471167291037247,
+  "adj_ref_notch_db": 3.102627220063198,
+  "wide_mean_abs_dev_db": 4.95400853710164,
+  "wide_max_notch_db": 4.350455358990544,
+  "wide_ref_notch_db": 3.850447067223314
+}

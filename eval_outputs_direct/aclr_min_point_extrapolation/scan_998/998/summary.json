@@ -1,0 +1,11 @@
+{
+  "model": "998",
+  "alpha": 3.9000000000000004,
+  "nmse_target_db": -37.0,
+  "nmse_linear": 0.0001993467333530352,
+  "nmse_db": -37.00390876622479,
+  "aclr_lower_db": -42.66026382128817,
+  "aclr_upper_db": -42.93733531786491,
+  "aclr_worst_db": -42.66026382128817,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_min_point_extrapolation\\scan_998\\998\\best.pth"
+}

@@ -1,0 +1,108 @@
+{
+  "reference_error": {
+    "nmse_db": -36.460777677583636,
+    "avg_aclr_db": -44.83440338598288,
+    "point_lower": -45.10452191091548,
+    "point_upper": -45.55231630515425,
+    "point_worst": -45.10452191091548,
+    "fullavg_worst": -43.73783656472543
+  },
+  "champions": [
+    {
+      "model": "2284",
+      "variant": "shape",
+      "mac": 2388,
+      "offsets": "-4,-3,-2,-1,0,1,2,3,4",
+      "nmse_db": -40.291885292832035,
+      "avg_aclr_db": -44.744807053576594,
+      "point_lower": -45.44076711760272,
+      "point_upper": -45.794356625866044,
+      "point_worst": -45.44076711760272,
+      "fullavg_worst": -43.66014605994617
+    },
+    {
+      "model": "2284",
+      "variant": "point",
+      "mac": 2388,
+      "offsets": "-4,-3,-2,-1,0,1,2,3,4",
+      "nmse_db": -40.14213979154167,
+      "avg_aclr_db": -44.38785127946092,
+      "point_lower": -46.16930427746334,
+      "point_upper": -46.16038576845435,
+      "point_worst": -46.16038576845435,
+      "fullavg_worst": -43.20323850439655
+    },
+    {
+      "model": "998",
+      "variant": "shape",
+      "mac": 998,
+      "offsets": "-2,-1,0,1,2",
+      "nmse_db": -37.10745816777129,
+      "avg_aclr_db": -42.2102444309936,
+      "point_lower": -43.741209054595174,
+      "point_upper": -43.64485483272051,
+      "point_worst": -43.64485483272051,
+      "fullavg_worst": -41.20306431521391
+    },
+    {
+      "model": "998",
+      "variant": "point",
+      "mac": 998,
+      "offsets": "-2,-1,0,1,2",
+      "nmse_db": -37.49789313599123,
+      "avg_aclr_db": -42.0166100070127,
+      "point_lower": -43.854280628507695,
+      "point_upper": -43.846288903832345,
+      "point_worst": -43.846288903832345,
+      "fullavg_worst": -41.04384514206157
+    },
+    {
+      "model": "786",
+      "variant": "shape",
+      "mac": 798,
+      "offsets": "-2,-1,0,3",
+      "nmse_db": -35.59334827444002,
+      "avg_aclr_db": -40.3114873629982,
+      "point_lower": -41.78676857414149,
+      "point_upper": -42.68677870827223,
+      "point_worst": -41.78676857414149,
+      "fullavg_worst": -39.28658560865064
+    },
+    {
+      "model": "786",
+      "variant": "point",
+      "mac": 798,
+      "offsets": "-2,-1,0,3",
+      "nmse_db": -35.29634372712847,
+      "avg_aclr_db": -39.76008805831092,
+      "point_lower": -42.364354555390804,
+      "point_upper": -42.379341457066275,
+      "point_worst": -42.364354555390804,
+      "fullavg_worst": -38.739023304943174
+    },
+    {
+      "model": "796",
+      "variant": "shape",
+      "mac": 796,
+      "offsets": "-2,-1,0,1,2",
+      "nmse_db": -35.51929037237841,
+      "avg_aclr_db": -40.36082405326684,
+      "point_lower": -41.27807488144498,
+      "point_upper": -41.2817755943682,
+      "point_worst": -41.27807488144498,
+      "fullavg_worst": -39.344943342014005
+    },
+    {
+      "model": "796",
+      "variant": "point",
+      "mac": 796,
+      "offsets": "-2,-1,0,1,2",
+      "nmse_db": -35.48083438402372,
+      "avg_aclr_db": -40.23984435600279,
+      "point_lower": -41.87044898046565,
+      "point_upper": -41.88182216243956,
+      "point_worst": -41.87044898046565,
+      "fullavg_worst": -39.24784567939288
+    }
+  ]
+}

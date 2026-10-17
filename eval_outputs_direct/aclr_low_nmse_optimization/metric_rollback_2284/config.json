@@ -1,0 +1,33 @@
+{
+  "models": [
+    "2284"
+  ],
+  "strategies": [
+    "pcgrad"
+  ],
+  "anchor_checkpoint": "eval_outputs_direct\\aclr_weight_space_search\\fine_2284_reference\\2284\\best.pth",
+  "tag": "metric_rollback_2284",
+  "epochs": 30,
+  "eval_every": 1,
+  "batch_size": 4,
+  "frame_length": 16384,
+  "frame_stride": 8192,
+  "seg_length": 4096,
+  "edge_trim": 512,
+  "fs_mhz": 491.52,
+  "lr": 2e-06,
+  "fir_lr": 2e-07,
+  "spectral_ratio": 20.0,
+  "nmse_margin_db": 0.005,
+  "trust_radius": 0.005,
+  "clip_grad": 1.0,
+  "smooth_temperature": 0.5,
+  "spectral_objective": "balanced",
+  "narrow_weight": 2.0,
+  "selection_objective": "reference",
+  "rollback_on_reject": true,
+  "ema_decay": 0.995,
+  "interpolation_step": 0.05,
+  "split": 0.8,
+  "seed": 20260713
+}

@@ -1,0 +1,42 @@
+{
+  "checkpoint": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_smoke\\796\\best.pth",
+    "exists": true,
+    "bytes": 16525
+  },
+  "summary": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_smoke\\796\\summary.json",
+    "exists": true,
+    "bytes": 3003
+  },
+  "search": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_smoke\\796\\search.csv",
+    "exists": true,
+    "bytes": 6536
+  },
+  "nmse_history": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_smoke\\796\\nmse_history.csv",
+    "exists": true,
+    "bytes": 373
+  },
+  "psd_plot": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_smoke\\796\\psd_comparison.png",
+    "exists": true,
+    "bytes": 437571
+  },
+  "nmse_curve": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_smoke\\796\\nmse_convergence.png",
+    "exists": true,
+    "bytes": 162046
+  },
+  "sidecar": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_smoke\\796\\best.sidecar.json",
+    "exists": true,
+    "bytes": 4993
+  },
+  "offsets": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_smoke\\796\\offsets.json",
+    "exists": true,
+    "bytes": 109
+  }
+}

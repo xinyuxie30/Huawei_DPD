@@ -1,0 +1,2 @@
+checkpoint,real_multipliers,nmse_linear,nmse_db,fullseq_nmse_linear,fullseq_nmse_db,target_aclr_lower_db,target_aclr_upper_db,target_aclr_worst_db,pred_aclr_lower_db,pred_aclr_upper_db,pred_aclr_worst_db,pred_target_aclr_gap_db,psd_path
+best_raw_model_A.pth,782,0.0003716751755743909,-34.29836444745246,0.0003526196666451483,-34.52693469469257,-48.65228867898749,-50.90018797401747,-48.65228867898749,-31.08698829272963,-32.10025291528177,-31.08698829272963,17.56530038625786,D:\PyChram_project\Huawei_DPD\eval_outputs_direct_clean\best_raw_model_A_psd.png

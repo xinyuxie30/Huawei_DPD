@@ -1,0 +1,16 @@
+{
+  "label": "998_smooth",
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\phase_spline_998m2\\998\\best.pth",
+  "mac": 998,
+  "mac_limit": null,
+  "nmse_db": -37.38979981988717,
+  "integrated_aclr_db": -42.093830412499535,
+  "point_worst_db": -43.40064710905247,
+  "ref_point_worst_db": -45.10452191091548,
+  "adj_mean_abs_dev_db": 2.770402098185688,
+  "adj_max_notch_db": 3.8667284137626297,
+  "adj_ref_notch_db": 3.102627220063198,
+  "wide_mean_abs_dev_db": 2.759821647471162,
+  "wide_max_notch_db": 3.792929668239296,
+  "wide_ref_notch_db": 3.850447067223314
+}

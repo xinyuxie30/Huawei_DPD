@@ -1,0 +1,2 @@
+variant,multipliers,nmse_linear,nmse_db,full_worst,point_worst,narrow_worst,three_metric_worst,checkpoint
+ttrans_probe_2376,2376,9.655919688727101e-05,-40.15206355057322,-42.980192389638844,-44.71745539846566,-43.8337505716614,-42.980192389638844,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\paper_ttrans_tcn_experiments\probe_context_stage1\ttrans_probe_2376\best.pth

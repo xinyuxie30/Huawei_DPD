@@ -1,0 +1,30 @@
+{
+  "model": "2284",
+  "coefficients": [
+    1.25,
+    1.0
+  ],
+  "objective": "reference",
+  "objective_value": 0.8807257656399656,
+  "nmse_target_db": -40.0,
+  "reference": {
+    "full": -43.73783656472544,
+    "point": -45.10452191091548,
+    "narrow": -44.99650320556108
+  },
+  "metrics": {
+    "nmse_linear": 9.896693898904563e-05,
+    "nmse_db": -40.04509862095557,
+    "full_lower": -43.222645939425604,
+    "full_upper": -43.24705544025669,
+    "full_worst": -43.222645939425604,
+    "point_lower": -45.213799599038765,
+    "point_upper": -45.27992206195722,
+    "point_worst": -45.213799599038765,
+    "narrow_lower": -44.11577743992112,
+    "narrow_upper": -44.666278389563246,
+    "narrow_worst": -44.11577743992112,
+    "three_metric_worst": -43.222645939425604
+  },
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_weight_space_search\\coarse_2284_reference\\2284\\best.pth"
+}

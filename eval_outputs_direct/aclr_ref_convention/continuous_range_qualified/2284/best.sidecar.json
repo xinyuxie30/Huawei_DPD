@@ -1,0 +1,303 @@
+{
+  "format": "PhaseSplineDPD raw state_dict plus explicit reconstruction metadata",
+  "model": "2284",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\multires_integrated_r1\\2284\\best.pth",
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_qualified\\2284\\best.pth",
+  "offsets": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "state_inference": {
+    "grid": 24,
+    "base_fir_taps": 43,
+    "output_fir_taps": 43,
+    "taps_reduction": 0,
+    "table_features": 17
+  },
+  "mac": {
+    "base_no_fir": 2112,
+    "fir": 172,
+    "corr": 104,
+    "total": 2388,
+    "orig_total": 2284
+  },
+  "fit_npersegs": [
+    2048,
+    4096,
+    8192
+  ],
+  "official_selection_nperseg": 4096,
+  "bins_per_side": 3,
+  "protocol": {
+    "spectral_mode": "band",
+    "optimize_ranges": true,
+    "frequency_selection": "fixed complete lower/upper adjacent bands",
+    "frequency_selection_uses_validation": false,
+    "coefficient_fit": "L-BFGS on complete training split only",
+    "validation_samples_used_in_lbfgs": false,
+    "trainable_parameters": [
+      "corr.tables",
+      "corr.gmin",
+      "corr.gmax"
+    ],
+    "frozen_components": [
+      "base",
+      "base FIR",
+      "wrapper output FIR",
+      "corr.gmin",
+      "corr.gmax"
+    ],
+    "alpha_and_checkpoint_selection": "validation official 4096 point ACLR under hard NMSE",
+    "objective": "normalized train MSE + spectral_weight * mean normalized spectral power over all fit resolutions + trust_weight * normalized table distance"
+  },
+  "active_bin_history": [
+    {
+      "round": 1,
+      "selection_sequence": "fixed complete adjacent bands",
+      "coefficient_fit_sequence": "complete training split only",
+      "bins": {
+        "2048": [
+          {
+            "side": "lower",
+            "band_mhz": [
+              -180.0,
+              -100.0
+            ],
+            "bins": 334,
+            "train_incumbent_scale_power": 0.07920806187520277
+          },
+          {
+            "side": "upper",
+            "band_mhz": [
+              100.0,
+              180.0
+            ],
+            "bins": 334,
+            "train_incumbent_scale_power": 0.0720371434018697
+          }
+        ],
+        "4096": [
+          {
+            "side": "lower",
+            "band_mhz": [
+              -180.0,
+              -100.0
+            ],
+            "bins": 667,
+            "train_incumbent_scale_power": 0.15880146273822637
+          },
+          {
+            "side": "upper",
+            "band_mhz": [
+              100.0,
+              180.0
+            ],
+            "bins": 667,
+            "train_incumbent_scale_power": 0.14466192019469615
+          }
+        ],
+        "8192": [
+          {
+            "side": "lower",
+            "band_mhz": [
+              -180.0,
+              -100.0
+            ],
+            "bins": 1334,
+            "train_incumbent_scale_power": 0.31729158218041453
+          },
+          {
+            "side": "upper",
+            "band_mhz": [
+              100.0,
+              180.0
+            ],
+            "bins": 1334,
+            "train_incumbent_scale_power": 0.29029896450920417
+          }
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "selection_sequence": "fixed complete adjacent bands",
+      "coefficient_fit_sequence": "complete training split only",
+      "bins": {
+        "2048": [
+          {
+            "side": "lower",
+            "band_mhz": [
+              -180.0,
+              -100.0
+            ],
+            "bins": 334,
+            "train_incumbent_scale_power": 0.07880231375389152
+          },
+          {
+            "side": "upper",
+            "band_mhz": [
+              100.0,
+              180.0
+            ],
+            "bins": 334,
+            "train_incumbent_scale_power": 0.07094139252224464
+          }
+        ],
+        "4096": [
+          {
+            "side": "lower",
+            "band_mhz": [
+              -180.0,
+              -100.0
+            ],
+            "bins": 667,
+            "train_incumbent_scale_power": 0.1580319238161629
+          },
+          {
+            "side": "upper",
+            "band_mhz": [
+              100.0,
+              180.0
+            ],
+            "bins": 667,
+            "train_incumbent_scale_power": 0.14245826122935643
+          }
+        ],
+        "8192": [
+          {
+            "side": "lower",
+            "band_mhz": [
+              -180.0,
+              -100.0
+            ],
+            "bins": 1334,
+            "train_incumbent_scale_power": 0.3157193239473051
+          },
+          {
+            "side": "upper",
+            "band_mhz": [
+              100.0,
+              180.0
+            ],
+            "bins": 1334,
+            "train_incumbent_scale_power": 0.28592217226821454
+          }
+        ]
+      }
+    }
+  ],
+  "selected_active_bins": {
+    "2048": [
+      {
+        "side": "lower",
+        "band_mhz": [
+          -180.0,
+          -100.0
+        ],
+        "bins": 334,
+        "train_incumbent_scale_power": 0.07920806187520277
+      },
+      {
+        "side": "upper",
+        "band_mhz": [
+          100.0,
+          180.0
+        ],
+        "bins": 334,
+        "train_incumbent_scale_power": 0.0720371434018697
+      }
+    ],
+    "4096": [
+      {
+        "side": "lower",
+        "band_mhz": [
+          -180.0,
+          -100.0
+        ],
+        "bins": 667,
+        "train_incumbent_scale_power": 0.15880146273822637
+      },
+      {
+        "side": "upper",
+        "band_mhz": [
+          100.0,
+          180.0
+        ],
+        "bins": 667,
+        "train_incumbent_scale_power": 0.14466192019469615
+      }
+    ],
+    "8192": [
+      {
+        "side": "lower",
+        "band_mhz": [
+          -180.0,
+          -100.0
+        ],
+        "bins": 1334,
+        "train_incumbent_scale_power": 0.31729158218041453
+      },
+      {
+        "side": "upper",
+        "band_mhz": [
+          100.0,
+          180.0
+        ],
+        "bins": 1334,
+        "train_incumbent_scale_power": 0.29029896450920417
+      }
+    ]
+  },
+  "selection": {
+    "candidate_id": "candidate_000243",
+    "description": "round=1 weight=3 alpha=0.925",
+    "objective": "integrated",
+    "max_point_regression_db": 0.05,
+    "nmse_limit_db": -40.0
+  },
+  "metrics_by_nperseg": {
+    "2048": {
+      "nmse_linear": 9.152203244552764e-05,
+      "nmse_db": -40.38474343991649,
+      "point_lower_db": -44.79322573383374,
+      "point_upper_db": -45.586328231159285,
+      "point_worst_db": -44.79322573383374,
+      "point_lower_mhz": -120.48,
+      "point_upper_mhz": 123.36,
+      "integrated_aclr_db": -44.81642119940971,
+      "integrated_lower_db": -47.663840733851224,
+      "integrated_upper_db": -47.99594918116351
+    },
+    "4096": {
+      "nmse_linear": 9.152203244552764e-05,
+      "nmse_db": -40.38474343991649,
+      "point_lower_db": -45.437405829951786,
+      "point_upper_db": -45.67857682757878,
+      "point_worst_db": -45.437405829951786,
+      "point_lower_mhz": -137.52,
+      "point_upper_mhz": 128.88,
+      "integrated_aclr_db": -44.7861659991581,
+      "integrated_lower_db": -47.63618988493897,
+      "integrated_upper_db": -47.96288441179861
+    },
+    "8192": {
+      "nmse_linear": 9.152203244552764e-05,
+      "nmse_db": -40.38474343991649,
+      "point_lower_db": -48.14243363059964,
+      "point_upper_db": -46.46377735313499,
+      "point_worst_db": -46.46377735313499,
+      "point_lower_mhz": -120.72,
+      "point_upper_mhz": 163.26,
+      "integrated_aclr_db": -44.81655626947902,
+      "integrated_lower_db": -47.672841298969004,
+      "integrated_upper_db": -47.986534477960916
+    }
+  }
+}

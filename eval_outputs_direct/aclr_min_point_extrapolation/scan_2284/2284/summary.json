@@ -1,0 +1,11 @@
+{
+  "model": "2284",
+  "alpha": 1.2000000000000002,
+  "nmse_target_db": -40.0,
+  "nmse_linear": 9.856747068445529e-05,
+  "nmse_db": -40.06266387626097,
+  "aclr_lower_db": -45.30477963275783,
+  "aclr_upper_db": -45.30707404301245,
+  "aclr_worst_db": -45.30477963275783,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_min_point_extrapolation\\scan_2284\\2284\\best.pth"
+}

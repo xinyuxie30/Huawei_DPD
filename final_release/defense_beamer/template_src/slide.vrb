@@ -1,0 +1,33 @@
+\begin{columns}
+        \column{.6\textwidth}
+\begin{lstlisting}[language=TeX]
+\begin{table}[htbp]
+  \caption{Definition}
+  \label{tab:number}
+  \centering
+  \begin{tabular}{cl}
+    \toprule
+    Word & Definition \\
+    \midrule
+    1 & 4.0 \\
+    2 & 3.7 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+Check definition of
+Equation~(\ref{eq:vsphere})
+in Table~\ref{tab:number}。
+\end{lstlisting}
+        \column{.4\textwidth}
+        \begin{table}[htpb]
+            \centering
+            \caption{Definition}
+            \label{tab:number}
+            \begin{tabular}{cl}\toprule
+                Eq. & Def. \\\midrule
+                1 & 4.0\\
+                2 & 3.7\\\bottomrule
+            \end{tabular}
+        \end{table}
+        \normalsize Please check the definition of Equation~(\ref{eq:vsphere}) in Table~\ref{tab:number}
+    \end{columns}

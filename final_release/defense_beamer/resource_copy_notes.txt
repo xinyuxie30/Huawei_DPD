@@ -1,0 +1,24 @@
+AI_DPD_final_defense.tex uses only relative paths under figures/ and pic/.
+
+Template resources copied:
+- template_src/CQUPT.sty -> CQUPT.sty
+- template_src/ref.bib -> ref.bib
+- template_src/pic/LogoCQUPT.jpg -> pic/LogoCQUPT.jpg
+- template_src/DPD.png -> figures/dpd_task.png
+- template_src/TCN.png -> figures/tcn_dilation.png
+- template_src/pic/EA-TCn.png -> figures/eatcn_template.png
+
+Result figures copied and renamed:
+- final_release/figures/final_main_H15_L6_rich9_FIR43_2284_psd_aclr.png -> figures/main_psd_aclr.png
+- final_release/figures/final_main_H15_L6_rich9_FIR43_2284_aclr_bar.png -> figures/main_aclr_bar.png
+- final_release/figures/final_main_H15_L6_rich9_FIR43_2284_convergence.png -> figures/main_convergence.png
+- final_release/figures/final_lightweight_998_rich9_attn4_FIR39_psd_aclr.png -> figures/light998_psd_aclr.png
+- final_release/figures/final_lightweight_796_H10_L3_FIR41_scratch_retrain_psd_aclr.png -> figures/light796_psd_aclr.png
+- final_release/figures/final_lightweight_796_H10_L3_FIR41_scratch_retrain_convergence.png -> figures/light796_convergence.png
+- eval_outputs_direct/figures/step800_scratch_h10_l4_base6_rank3_fir41_786_psd_aclr.png -> figures/model786_psd_aclr.png
+- eval_outputs_direct/figures/step800_scratch_h10_l4_base6_rank3_fir41_786_aclr_bar.png -> figures/model786_aclr_bar.png
+- eval_outputs_direct/figures/step800_scratch_h10_l4_base6_rank3_fir41_786_convergence.png -> figures/model786_convergence.png
+
+Compile from this directory:
+xelatex AI_DPD_final_defense.tex
+xelatex AI_DPD_final_defense.tex

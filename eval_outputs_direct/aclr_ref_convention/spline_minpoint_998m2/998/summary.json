@@ -1,0 +1,12 @@
+{
+  "model": "998",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\phase_spline_998m2\\998\\best.pth",
+  "nmse_target_db": -37.0,
+  "alpha": 3.0,
+  "nmse_linear": 0.0001816674474379832,
+  "nmse_db": -37.40722885925888,
+  "aclr_lower_db": -43.52707089076202,
+  "aclr_upper_db": -43.541873383188886,
+  "aclr_worst_db": -43.52707089076202,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\spline_minpoint_998m2\\998\\best_extrapolated.pth"
+}

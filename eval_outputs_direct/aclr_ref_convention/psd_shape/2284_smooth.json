@@ -1,0 +1,16 @@
+{
+  "label": "2284_smooth",
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\budget2399_train\\2284\\last.pth",
+  "mac": 2388,
+  "mac_limit": 2399,
+  "nmse_db": -40.523597052869526,
+  "integrated_aclr_db": -44.631096628652394,
+  "point_worst_db": -45.42917294256762,
+  "ref_point_worst_db": -45.10452191091548,
+  "adj_mean_abs_dev_db": 0.9723105756388057,
+  "adj_max_notch_db": 3.561207029046983,
+  "adj_ref_notch_db": 3.102627220063198,
+  "wide_mean_abs_dev_db": 1.0002535817965936,
+  "wide_max_notch_db": 3.4883464369248713,
+  "wide_ref_notch_db": 3.850447067223314
+}

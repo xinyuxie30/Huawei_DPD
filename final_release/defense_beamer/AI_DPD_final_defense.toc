@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.14pt}
+\beamer@sectionintoc {1}{团队信息}{3}{0}{1}
+\beamer@sectionintoc {2}{赛题与指标}{5}{0}{2}
+\beamer@sectionintoc {3}{算法方案}{9}{0}{3}
+\beamer@sectionintoc {4}{评估与复杂度}{16}{0}{4}
+\beamer@sectionintoc {5}{结果展示}{19}{0}{5}
+\beamer@sectionintoc {6}{结论}{23}{0}{6}

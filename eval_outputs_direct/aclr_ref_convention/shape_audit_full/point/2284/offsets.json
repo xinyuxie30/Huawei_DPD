@@ -1,0 +1,17 @@
+{
+  "model": "2284",
+  "selected_offsets": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "mac": 2388,
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\budget2399_ab2\\2284\\best.pth",
+  "offset_source": "model_config.json:offsets"
+}

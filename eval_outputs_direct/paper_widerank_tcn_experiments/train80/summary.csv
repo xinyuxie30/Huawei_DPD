@@ -1,0 +1,2 @@
+multipliers,nmse_linear,nmse_db,full_worst,point_worst,narrow_worst,three_metric_worst,checkpoint
+2258,0.00023430562019914733,-36.30217294022742,-39.21689939177095,-41.07568255466366,-39.82735731708736,-39.21689939177095,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\paper_widerank_tcn_experiments\train80\best.pth

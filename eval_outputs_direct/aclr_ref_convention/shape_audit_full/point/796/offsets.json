@@ -1,0 +1,13 @@
+{
+  "model": "796",
+  "selected_offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "mac": 796,
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\feature_range_796_fir_r3\\796\\best.pth",
+  "offset_source": "feature_count_default"
+}

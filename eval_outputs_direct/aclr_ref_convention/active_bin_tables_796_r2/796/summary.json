@@ -1,0 +1,14 @@
+{
+  "model": "796",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\active_bin_tables_all\\796\\best.pth",
+  "nmse_limit_db": -35.0,
+  "nmse_linear": 0.00028058694982914376,
+  "nmse_db": -35.51932531985456,
+  "point_lower_db": -41.27936868556431,
+  "point_upper_db": -41.27911156515768,
+  "point_worst_db": -41.27911156515768,
+  "point_lower_mhz": -131.16,
+  "point_upper_mhz": 132.84,
+  "integrated_aclr_db": -40.357160991697484,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\active_bin_tables_796_r2\\796\\best.pth"
+}

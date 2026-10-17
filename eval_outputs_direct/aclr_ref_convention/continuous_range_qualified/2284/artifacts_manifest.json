@@ -1,0 +1,42 @@
+{
+  "checkpoint": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_qualified\\2284\\best.pth",
+    "exists": true,
+    "bytes": 33449
+  },
+  "summary": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_qualified\\2284\\summary.json",
+    "exists": true,
+    "bytes": 3071
+  },
+  "search": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_qualified\\2284\\search.csv",
+    "exists": true,
+    "bytes": 711876
+  },
+  "nmse_history": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_qualified\\2284\\nmse_history.csv",
+    "exists": true,
+    "bytes": 45228
+  },
+  "psd_plot": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_qualified\\2284\\psd_comparison.png",
+    "exists": true,
+    "bytes": 427247
+  },
+  "nmse_curve": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_qualified\\2284\\nmse_convergence.png",
+    "exists": true,
+    "bytes": 207374
+  },
+  "sidecar": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_qualified\\2284\\best.sidecar.json",
+    "exists": true,
+    "bytes": 8005
+  },
+  "offsets": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\continuous_range_qualified\\2284\\offsets.json",
+    "exists": true,
+    "bytes": 145
+  }
+}

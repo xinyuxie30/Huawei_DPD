@@ -1,0 +1,12 @@
+{
+  "model": "786",
+  "selected_offsets": [
+    -2,
+    -1,
+    0,
+    3
+  ],
+  "mac": 798,
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\budget800_ab2\\786\\best.pth",
+  "offset_source": "model_config.json:offsets"
+}

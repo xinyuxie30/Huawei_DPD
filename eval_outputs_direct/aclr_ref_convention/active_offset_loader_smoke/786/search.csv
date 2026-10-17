@@ -1,0 +1,2 @@
+model,round,pair,bin_source,active_lower_mhz,active_upper_mhz,spectral_weight,alpha,lbfgs_loss,closure_calls,nmse_linear,nmse_db,point_lower_db,point_upper_db,point_worst_db,point_lower_mhz,point_upper_mhz,integrated_aclr_db
+786,1,0,val,-133.68,127.19999999999999,0.0,0.0,1.0,2,0.0003003693992999281,-35.22344313985173,-42.18247776553849,-42.43549882470481,-42.18247776553849,-133.68,127.2,-39.67783021996024

@@ -1,0 +1,38 @@
+# Local environments, IDE and assistant state
+.idea/
+.vscode/
+.agents/
+.claude/
+.codex/
+.venv/
+venv/
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Reproducible model weights and generated arrays stay local
+**/checkpoints*/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+
+# Bundled installers, external runtimes and temporary report-conversion files
+**/root_misc/tools/
+**/root_misc/tmp/
+**/tools/tmp/
+**/LibreOffice*/
+**/installers/
+**/lo_profile*/
+**/soffice*/
+**/reports_workfiles/
+*.log
+*.tmp
+*.bak
+~$*

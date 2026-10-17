@@ -1,0 +1,16 @@
+{
+  "label": "final_796",
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\shape_796\\796\\best.pth",
+  "mac": 796,
+  "mac_limit": 796,
+  "nmse_db": -35.417690681588624,
+  "integrated_aclr_db": -40.47386086708319,
+  "point_worst_db": -41.122997676736574,
+  "ref_point_worst_db": -45.10452191091548,
+  "adj_mean_abs_dev_db": 4.2811053258267435,
+  "adj_max_notch_db": 3.115527254136609,
+  "adj_ref_notch_db": 3.102627220063198,
+  "wide_mean_abs_dev_db": 4.378296616477723,
+  "wide_max_notch_db": 4.255866036141498,
+  "wide_ref_notch_db": 3.850447067223314
+}

@@ -1,0 +1,28 @@
+{
+  "model": "998",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\active_bin_final\\998\\best.pth",
+  "selection": "interpolated anchor scale=1",
+  "selected_range": "scale=1",
+  "nmse_limit_db": -37.0,
+  "source_point_worst_db": -43.66507601886565,
+  "point_gain_db": 2.842170943040401e-14,
+  "offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "grid": 24,
+  "mac": 998,
+  "nmse_linear": 0.00017866644204266271,
+  "nmse_db": -37.47957011032639,
+  "point_lower_db": -43.665076018865676,
+  "point_upper_db": -43.7377415267035,
+  "point_worst_db": -43.665076018865676,
+  "point_lower_mhz": -159.72,
+  "point_upper_mhz": 131.04,
+  "integrated_aclr_db": -42.03175463672294,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\feature_range_scale_all\\998\\best.pth",
+  "ranges_sidecar": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\feature_range_scale_all\\998\\ranges.json"
+}

@@ -1,0 +1,12 @@
+{
+  "model": "786",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_three_metric_experiments\\teacher_a05_light\\786\\best.pth",
+  "nmse_target_db": -35.0,
+  "alpha": 2.0,
+  "nmse_linear": 0.0003066687146840307,
+  "nmse_db": -35.133305270273574,
+  "aclr_lower_db": -41.10178848539694,
+  "aclr_upper_db": -42.12228760787053,
+  "aclr_worst_db": -41.10178848539694,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_min_point_optimization\\minpoint_786_tau01\\786\\best_extrapolated.pth"
+}

@@ -1,0 +1,2 @@
+epoch,softmin_temperature,gate,accepted,nmse_linear,nmse_db,aclr_lower_db,aclr_upper_db,aclr_worst_db
+1,1.0,1.0,0,9.904983936214878e-05,-40.04146224458488,-45.24642327089995,-45.35161952231579,-45.24642327089995

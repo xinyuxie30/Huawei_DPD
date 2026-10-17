@@ -1,0 +1,16 @@
+{
+  "label": "rel_shape_786",
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\final_aclr_release\\best_shape\\checkpoints\\786_shape_point41p79.pth",
+  "mac": 798,
+  "mac_limit": null,
+  "nmse_db": -35.59334827444002,
+  "integrated_aclr_db": -40.3114873629982,
+  "point_worst_db": -41.78676857414149,
+  "ref_point_worst_db": -45.10452191091548,
+  "adj_mean_abs_dev_db": 4.444957820897618,
+  "adj_max_notch_db": 4.613257593699643,
+  "adj_ref_notch_db": 3.102627220063198,
+  "wide_mean_abs_dev_db": 4.505902860408521,
+  "wide_max_notch_db": 4.348028839623197,
+  "wide_ref_notch_db": 3.850447067223314
+}

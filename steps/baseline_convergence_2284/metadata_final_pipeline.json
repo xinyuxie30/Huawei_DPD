@@ -1,0 +1,13 @@
+{
+  "title": "EA-TCN",
+  "main_legend": "EA-TCN(2284)",
+  "main_curve_source": "D:\\PyChram_project\\Huawei_DPD\\steps\\ea_tcn_2492_to_2284\\pipeline_history.csv",
+  "main_curve_interpretation": "2492-real-multiplier FIR95 base training trajectory; deployment point is the 2284-real-multiplier FIR43 model after train-only LS",
+  "deployment_validation_nmse_db": -40.10102272,
+  "target_nmse_db": -40.0,
+  "baseline_curve_source": "D:\\PyChram_project\\Huawei_DPD\\steps\\baseline_convergence_2284\\nmse_history.csv",
+  "png": "D:\\PyChram_project\\Huawei_DPD\\steps\\baseline_convergence_2284\\ea_tcn_final_convergence.png",
+  "svg": "D:\\PyChram_project\\Huawei_DPD\\steps\\baseline_convergence_2284\\ea_tcn_final_convergence.svg",
+  "combined_history": "D:\\PyChram_project\\Huawei_DPD\\steps\\baseline_convergence_2284\\nmse_history_final_pipeline.csv",
+  "summary": "D:\\PyChram_project\\Huawei_DPD\\steps\\baseline_convergence_2284\\summary_final_pipeline.csv"
+}

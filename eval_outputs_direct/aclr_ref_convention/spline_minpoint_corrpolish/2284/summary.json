@@ -1,0 +1,12 @@
+{
+  "model": "2284",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\fir_pointsweep\\2284\\best.pth",
+  "nmse_target_db": -40.0,
+  "alpha": 1.0,
+  "nmse_linear": 9.628037406894109e-05,
+  "nmse_db": -40.16462231070861,
+  "aclr_lower_db": -45.975591957524756,
+  "aclr_upper_db": -45.422729461698765,
+  "aclr_worst_db": -45.422729461698765,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\spline_minpoint_corrpolish\\2284\\best_extrapolated.pth"
+}

@@ -1,0 +1,33 @@
+{
+  "model": "796",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\active_bin_final\\796\\best.pth",
+  "source_offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "selected_offsets": [
+    -2,
+    -1,
+    0,
+    2,
+    3
+  ],
+  "selection": "offsets=(-2, -1, 0, 2, 3) active=(-150.72,149.28) weight=0.1 alpha=0.900",
+  "nmse_limit_db": -35.0,
+  "source_point_worst_db": -41.28347835148517,
+  "point_gain_db": 0.06899307378814967,
+  "mac": 796,
+  "nmse_linear": 0.0002899728563435979,
+  "nmse_db": -35.37642653452478,
+  "point_lower_db": -41.3799625880733,
+  "point_upper_db": -41.35247142527332,
+  "point_worst_db": -41.35247142527332,
+  "point_lower_mhz": -142.32,
+  "point_upper_mhz": 149.28,
+  "integrated_aclr_db": -39.902403780311495,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\lag_topology_search\\796\\best.pth",
+  "offsets_sidecar": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\lag_topology_search\\796\\offsets.json"
+}

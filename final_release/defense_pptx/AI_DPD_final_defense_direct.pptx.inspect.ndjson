@@ -1,0 +1,426 @@
+{"kind":"deck","id":"pr/hkspa4","name":"Deck"}
+{"kind":"layout","layoutId":"0790fd5e-3641-41a1-93f0-c9adf9205cc8","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"55da8577-083e-446a-a6dd-6372a4a201ca","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/xh03xc","slide":1,"title":"轻量级 AI DPD 算法结题答辩","textShapes":8}
+{"kind":"shape","id":"sh/ixczed8v","slide":1,"bbox":[0,0,1280,150]}
+{"kind":"textbox","id":"sh/tovahoza","slide":1,"text":"轻量级 AI DPD 算法结题答辩","textPreview":"轻量级 AI DPD 算法结题答辩","textChars":17,"textLines":1,"bbox":[78,48,900,72]}
+{"kind":"textbox","id":"sh/032lszqt","slide":1,"text":"第三届华为无线“声光电磁”硬件创新竞赛 09 赛题","textPreview":"第三届华为无线“声光电磁”硬件创新竞赛 09 赛题","textChars":25,"textLines":1,"bbox":[84,170,780,36]}
+{"kind":"textbox","id":"sh/bulwval8","slide":1,"text":"基于 EA-TCN 的可解释、低复杂度、频域约束 DPD 方案","textPreview":"基于 EA-TCN 的可解释、低复杂度、频域约束 DPD 方案","textChars":31,"textLines":1,"bbox":[84,232,920,44]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":1,"text":"重庆邮电大学 通信与信息工程学院 · 2026年7月","textPreview":"重庆邮电大学 通信与信息工程学院 · 2026年7月","textChars":26,"textLines":1,"bbox":[84,310,660,32]}
+{"kind":"shape","id":"sh/p0bi9s36","slide":1,"bbox":[84,410,720,118]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":1,"text":"核心结论","textPreview":"核心结论","textChars":4,"textLines":1,"bbox":[112,430,160,30]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":1,"text":"主模型 H15/L6/Input-9/FIR43 在 2284 个等效实乘法器下达到 NMSE -40.15 dB 与 worst ACLR -48.77 dBc。","textPreview":"主模型 H15/L6/Input-9/FIR43 在 2284 个等效实乘法器下达到 NMSE -40.15 dB 与 worst ACLR -48.77 dBc。","textChars":82,"textLines":1,"bbox":[112,468,650,46]}
+{"kind":"shape","id":"sh/c7u54zid","slide":1,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":1,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":1,"text":"1 / 16","textPreview":"1 / 16","textChars":6,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"image","id":"im/vmtwra5g","slide":1,"name":"","alt":"CQUPT logo","bbox":[1048,505,112,112]}
+{"kind":"notes","id":"nt/xh03xc","slide":1,"text":""}
+{"kind":"slide","id":"sl/8v3rrp","slide":2,"title":"答辩结构","textShapes":16}
+{"kind":"shape","id":"sh/lc7u54zi","slide":2,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":2,"text":"答辩结构","textPreview":"答辩结构","textChars":4,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":2,"text":"Agenda","textPreview":"Agenda","textChars":6,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":2,"bbox":[120,135,48,48]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[120,145,48,24]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":2,"text":"赛题理解与指标约束","textPreview":"赛题理解与指标约束","textChars":9,"textLines":1,"bbox":[190,143,800,36]}
+{"kind":"shape","id":"sh/7u54zido","slide":2,"bbox":[120,207,48,48]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[120,217,48,24]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":2,"text":"EA-TCN 算法方案","textPreview":"EA-TCN 算法方案","textChars":11,"textLines":1,"bbox":[190,215,800,36]}
+{"kind":"shape","id":"sh/tsvu9kni","slide":2,"bbox":[120,279,48,48]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[120,289,48,24]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":2,"text":"数学模型与公式","textPreview":"数学模型与公式","textChars":7,"textLines":1,"bbox":[190,287,800,36]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":2,"bbox":[120,351,48,48]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[120,361,48,24]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":2,"text":"统一评估与复杂度","textPreview":"统一评估与复杂度","textChars":8,"textLines":1,"bbox":[190,359,800,36]}
+{"kind":"shape","id":"sh/bat47y1k","slide":2,"bbox":[120,423,48,48]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":2,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[120,433,48,24]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":2,"text":"主模型、轻量模型和 786 MAC 专项结果","textPreview":"主模型、轻量模型和 786 MAC 专项结果","textChars":22,"textLines":1,"bbox":[190,431,800,36]}
+{"kind":"shape","id":"sh/4nap4r65","slide":2,"bbox":[120,495,48,48]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":2,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[120,505,48,24]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":2,"text":"工程价值与后续工作","textPreview":"工程价值与后续工作","textChars":9,"textLines":1,"bbox":[190,503,800,36]}
+{"kind":"shape","id":"sh/il0rqd4v","slide":2,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":2,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":2,"text":"2 / 16","textPreview":"2 / 16","textChars":6,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"notes","id":"nt/8v3rrp","slide":2,"text":""}
+{"kind":"slide","id":"sl/9s61in","slide":3,"title":"功放非线性把 DPD 变成宽带发射链路的必要补偿","textShapes":14}
+{"kind":"shape","id":"sh/obm58z25","slide":3,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":3,"text":"功放非线性把 DPD 变成宽带发射链路的必要补偿","textPreview":"功放非线性把 DPD 变成宽带发射链路的必要补偿","textChars":24,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":3,"text":"Problem","textPreview":"Problem","textChars":7,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":3,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[76,152,24,24]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":3,"text":"PA 同时存在 AM-AM、AM-PM 非线性、短时记忆、热记忆和残余群时延。","textPreview":"PA 同时存在 AM-AM、AM-PM 非线性、短时记忆、热记忆和残余群时延。","textChars":39,"textLines":1,"bbox":[108,150,528,54]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":3,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[76,210,24,24]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":3,"text":"线性化不足会恶化主带 EVM/NMSE，并在邻道形成谱再生。","textPreview":"线性化不足会恶化主带 EVM/NMSE，并在邻道形成谱再生。","textChars":30,"textLines":1,"bbox":[108,208,528,54]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":3,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[76,268,24,24]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":3,"text":"DPD 在数字基带侧学习 PA 逆系统，使功放等效输出接近目标线性响应。","textPreview":"DPD 在数字基带侧学习 PA 逆系统，使功放等效输出接近目标线性响应。","textChars":36,"textLines":1,"bbox":[108,266,528,54]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":3,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[76,326,24,24]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":3,"text":"轻量化目标要求算法同时满足频谱指标和硬件乘法器预算。","textPreview":"轻量化目标要求算法同时满足频谱指标和硬件乘法器预算。","textChars":26,"textLines":1,"bbox":[108,324,528,54]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":3,"bbox":[690,488,445,86]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":3,"text":"答辩主线","textPreview":"答辩主线","textChars":4,"textLines":1,"bbox":[716,506,150,26]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":3,"text":"用 EA-TCN 提供可解释的非线性记忆建模，用 FIR 与频域 LS refit 守住邻道泄漏。","textPreview":"用 EA-TCN 提供可解释的非线性记忆建模，用 FIR 与频域 LS refit 守住邻道泄漏。","textChars":49,"textLines":1,"bbox":[716,538,390,26]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":3,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":3,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":3,"text":"3 / 16","textPreview":"3 / 16","textChars":6,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"image","id":"im/3itgfmlk","slide":3,"name":"","alt":"DPD principle","bbox":[700,158,430,300]}
+{"kind":"notes","id":"nt/9s61in","slide":3,"text":""}
+{"kind":"slide","id":"sl/9y8avv","slide":4,"title":"赛题任务需要同时按时域和频域判定","textShapes":24}
+{"kind":"shape","id":"sh/5sneloj2","slide":4,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/u54zidon","slide":4,"text":"赛题任务需要同时按时域和频域判定","textPreview":"赛题任务需要同时按时域和频域判定","textChars":16,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":4,"text":"Task","textPreview":"Task","textChars":4,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/czed8v6p","slide":4,"bbox":[78,135,540,98]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":4,"text":"DPD 直接拟合目标","textPreview":"DPD 直接拟合目标","textChars":10,"textLines":1,"bbox":[96,147,504,24]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":4,"text":"\\widehat{y}[n] = f_{\\theta}(x)[n],\\quad x[n]=I[n]+jQ[n]","textPreview":"\\widehat{y}[n] = f_{\\theta}(x)[n],\\quad x[n]=I[n]+jQ[n]","textChars":55,"textLines":1,"bbox":[96,179,504,44]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":4,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[82,272,24,24]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":4,"text":"输入：复数 IQ 序列 x[n]；输出：pred_y；目标：target_y。","textPreview":"输入：复数 IQ 序列 x[n]；输出：pred_y；目标：target_y。","textChars":39,"textLines":1,"bbox":[114,270,533,48]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":4,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[82,324,24,24]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":4,"text":"切分：前 80% 训练，后 20% 验证，按时序切分。","textPreview":"切分：前 80% 训练，后 20% 验证，按时序切分。","textChars":27,"textLines":1,"bbox":[114,322,533,48]}
+{"kind":"textbox","id":"sh/knih4byh","slide":4,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[82,376,24,24]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":4,"text":"采样率：491.52 MHz；主带：[-100,100] MHz。","textPreview":"采样率：491.52 MHz；主带：[-100,100] MHz。","textChars":33,"textLines":1,"bbox":[114,374,533,48]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":4,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[82,428,24,24]}
+{"kind":"textbox","id":"sh/d0z61032","slide":4,"text":"邻道：[-245,-180] MHz 与 [180,245] MHz。","textPreview":"邻道：[-245,-180] MHz 与 [180,245] MHz。","textChars":35,"textLines":1,"bbox":[114,426,533,48]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":4,"bbox":[690,150,220,52]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":4,"text":"指标","textPreview":"指标","textChars":2,"textLines":1,"bbox":[698,160,204,40]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":4,"bbox":[910,150,250,52]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":4,"text":"门限","textPreview":"门限","textChars":2,"textLines":1,"bbox":[918,160,234,40]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":4,"bbox":[690,202,220,43]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":4,"text":"NMSE","textPreview":"NMSE","textChars":4,"textLines":1,"bbox":[698,212,204,31]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":4,"bbox":[910,202,250,43]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":4,"text":"<= -40 dB","textPreview":"<= -40 dB","textChars":9,"textLines":1,"bbox":[918,212,234,31]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":4,"bbox":[690,245,220,43]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":4,"text":"worst ACLR","textPreview":"worst ACLR","textChars":10,"textLines":1,"bbox":[698,255,204,31]}
+{"kind":"shape","id":"sh/9knih4by","slide":4,"bbox":[910,245,250,43]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":4,"text":"<= -45 dBc","textPreview":"<= -45 dBc","textChars":10,"textLines":1,"bbox":[918,255,234,31]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":4,"bbox":[690,288,220,43]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":4,"text":"复杂度","textPreview":"复杂度","textChars":3,"textLines":1,"bbox":[698,298,204,31]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":4,"bbox":[910,288,250,43]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":4,"text":"等效实数乘法器数","textPreview":"等效实数乘法器数","textChars":8,"textLines":1,"bbox":[918,298,234,31]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":4,"bbox":[690,372,470,124]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":4,"text":"口径说明","textPreview":"口径说明","textChars":4,"textLines":1,"bbox":[716,393,160,28]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":4,"text":"本报告所有最终 checkpoint 使用统一评估脚本输出 NMSE、ACLR、PSD 图和乘法器数，避免不同阶段脚本的局部口径差异。","textPreview":"本报告所有最终 checkpoint 使用统一评估脚本输出 NMSE、ACLR、PSD 图和乘法器数，避免不同阶段脚本的局部口径差异。","textChars":67,"textLines":1,"bbox":[716,431,410,50]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":4,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":4,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":4,"text":"4 / 16","textPreview":"4 / 16","textChars":6,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"notes","id":"nt/9y8avv","slide":4,"text":""}
+{"kind":"slide","id":"sl/n082ga","slide":5,"title":"EA-TCN 方案由四个可解释模块串联","textShapes":21}
+{"kind":"shape","id":"sh/u9knih4b","slide":5,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/1032lszq","slide":5,"text":"EA-TCN 方案由四个可解释模块串联","textPreview":"EA-TCN 方案由四个可解释模块串联","textChars":19,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":5,"text":"Design","textPreview":"Design","textChars":6,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":5,"bbox":[75,155,235,108]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":5,"text":"Input-9 特征","textPreview":"Input-9 特征","textChars":10,"textLines":1,"bbox":[93,178,200,26]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":5,"text":"I/Q、前后采样、幅度与高阶幅度特征","textPreview":"I/Q、前后采样、幅度与高阶幅度特征","textChars":18,"textLines":1,"bbox":[93,214,200,32]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[320,188,40,44]}
+{"kind":"shape","id":"sh/nap4r65w","slide":5,"bbox":[365,155,235,108]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":5,"text":"扩张 TCN 主干","textPreview":"扩张 TCN 主干","textChars":9,"textLines":1,"bbox":[383,178,200,26]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":5,"text":"H15/L6, dilations=[1,2,4,8,16,32]","textPreview":"H15/L6, dilations=[1,2,4,8,16,32]","textChars":33,"textLines":1,"bbox":[383,214,200,32]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[610,188,40,44]}
+{"kind":"shape","id":"sh/al87ed8b","slide":5,"bbox":[655,155,235,108]}
+{"kind":"textbox","id":"sh/z61032ls","slide":5,"text":"谱注意力门控","textPreview":"谱注意力门控","textChars":6,"textLines":1,"bbox":[673,178,200,26]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":5,"text":"幅度包络驱动通道响应调节","textPreview":"幅度包络驱动通道响应调节","textChars":12,"textLines":1,"bbox":[673,214,200,32]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[900,188,40,44]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":5,"bbox":[945,155,235,108]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":5,"text":"复数 FIR refit","textPreview":"复数 FIR refit","textChars":12,"textLines":1,"bbox":[963,178,200,26]}
+{"kind":"textbox","id":"sh/obm58z25","slide":5,"text":"43 taps，频域带权 LS 校正","textPreview":"43 taps，频域带权 LS 校正","textChars":18,"textLines":1,"bbox":[963,214,200,32]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":5,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[690,342,24,24]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":5,"text":"物理先验降低低阶非线性拟合难度。","textPreview":"物理先验降低低阶非线性拟合难度。","textChars":16,"textLines":1,"bbox":[722,340,438,52]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":5,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[690,398,24,24]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":5,"text":"扩张卷积用较少层数覆盖长记忆。","textPreview":"扩张卷积用较少层数覆盖长记忆。","textChars":15,"textLines":1,"bbox":[722,396,438,52]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":5,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[690,454,24,24]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":5,"text":"FIR refit 对残余群时延和频谱翅膀做低风险校正。","textPreview":"FIR refit 对残余群时延和频谱翅膀做低风险校正。","textChars":28,"textLines":1,"bbox":[722,452,438,52]}
+{"kind":"shape","id":"sh/jqh0fepk","slide":5,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":5,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":5,"text":"5 / 16","textPreview":"5 / 16","textChars":6,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"image","id":"im/a1gvy90j","slide":5,"name":"","alt":"EA-TCN architecture","bbox":[180,320,430,240]}
+{"kind":"notes","id":"nt/n082ga","slide":5,"text":""}
+{"kind":"slide","id":"sl/oxwysn","slide":6,"title":"Input-9 把低阶 PA 物理先验前置到特征侧","textShapes":16}
+{"kind":"shape","id":"sh/wjudg7ad","slide":6,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":6,"text":"Input-9 把低阶 PA 物理先验前置到特征侧","textPreview":"Input-9 把低阶 PA 物理先验前置到特征侧","textChars":25,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":6,"text":"Input Features","textPreview":"Input Features","textChars":14,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":6,"bbox":[80,138,560,102]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":6,"text":"复数奇次非线性基函数","textPreview":"复数奇次非线性基函数","textChars":10,"textLines":1,"bbox":[98,150,524,24]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":6,"text":"\\phi_p(x[n]) = x[n]\\cdot |x[n]|^{p-1},\\quad p\\in\\{1,3,5\\}","textPreview":"\\phi_p(x[n]) = x[n]\\cdot |x[n]|^{p-1},\\quad p\\in\\{1,3,5\\}","textChars":57,"textLines":1,"bbox":[98,182,524,48]}
+{"kind":"shape","id":"sh/i5sneloj","slide":6,"bbox":[80,270,560,102]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":6,"text":"Input-9 特征向量","textPreview":"Input-9 特征向量","textChars":12,"textLines":1,"bbox":[98,282,524,24]}
+{"kind":"textbox","id":"sh/0z61032l","slide":6,"text":"\\mathbf{u}[n]=[I,Q,I_{\\pm1},Q_{\\pm1},|x|,|x|^3,|x|^5]","textPreview":"\\mathbf{u}[n]=[I,Q,I_{\\pm1},Q_{\\pm1},|x|,|x|^3,|x|^5]","textChars":53,"textLines":1,"bbox":[98,314,524,48]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":6,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[700,152,24,24]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":6,"text":"I/Q 与前后采样描述短时记忆。","textPreview":"I/Q 与前后采样描述短时记忆。","textChars":16,"textLines":1,"bbox":[732,150,408,54]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":6,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[700,210,24,24]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":6,"text":"幅度幂次特征暴露 AM-AM / AM-PM 失真。","textPreview":"幅度幂次特征暴露 AM-AM / AM-PM 失真。","textChars":26,"textLines":1,"bbox":[732,208,408,54]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":6,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[700,268,24,24]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":6,"text":"线性初始化吸收主要缩放和相位旋转。","textPreview":"线性初始化吸收主要缩放和相位旋转。","textChars":17,"textLines":1,"bbox":[732,266,408,54]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":6,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[700,326,24,24]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":6,"text":"TCN 主干不必从零学习所有低阶结构。","textPreview":"TCN 主干不必从零学习所有低阶结构。","textChars":19,"textLines":1,"bbox":[732,324,408,54]}
+{"kind":"shape","id":"sh/q1orytsv","slide":6,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":6,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":6,"text":"6 / 16","textPreview":"6 / 16","textChars":6,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"notes","id":"nt/oxwysn","slide":6,"text":""}
+{"kind":"slide","id":"sl/8db6ps","slide":7,"title":"扩张 TCN 与谱注意力共同处理长记忆和幅度依赖","textShapes":14}
+{"kind":"shape","id":"sh/54zidony","slide":7,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":7,"text":"扩张 TCN 与谱注意力共同处理长记忆和幅度依赖","textPreview":"扩张 TCN 与谱注意力共同处理长记忆和幅度依赖","textChars":24,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":7,"text":"TCN + Attention","textPreview":"TCN + Attention","textChars":15,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":7,"bbox":[575,130,580,90]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":7,"text":"H15/L6 主干感受野","textPreview":"H15/L6 主干感受野","textChars":12,"textLines":1,"bbox":[593,142,544,24]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":7,"text":"R \\approx 1+(K-1)\\sum_l d_l = 1+4(1+2+4+8+16+32)=253","textPreview":"R \\approx 1+(K-1)\\sum_l d_l = 1+4(1+2+4+8+16+32)=253","textChars":52,"textLines":1,"bbox":[593,174,544,36]}
+{"kind":"shape","id":"sh/c7u54zid","slide":7,"bbox":[575,255,580,112]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":7,"text":"谱注意力门控","textPreview":"谱注意力门控","textChars":6,"textLines":1,"bbox":[593,267,544,24]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":7,"text":"\\mathbf{g}[n]=\\sigma\\left(W_2\\psi(W_1\\mathbf{a}[n])\\right),\\quad \\widetilde{\\mathbf{z}}[n]=\\mathbf{g}[n]\\odot\\mathbf{z}[n]","textPreview":"\\mathbf{g}[n]=\\sigma\\left(W_2\\psi(W_1\\mathbf{a}[n])\\right),\\quad \\widetilde{\\mathbf{z}}[n]=\\mathbf{g}[n]\\odot\\mathbf{z}[n]","textChars":122,"textLines":1,"bbox":[593,299,544,58]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":7,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[585,412,24,24]}
+{"kind":"textbox","id":"sh/7u54zido","slide":7,"text":"扩张因子覆盖到 32 个采样级别。","textPreview":"扩张因子覆盖到 32 个采样级别。","textChars":17,"textLines":1,"bbox":[617,410,508,48]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":7,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[585,464,24,24]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":7,"text":"门控由 |x|、|x|^3、|x|^5 等幅度包络特征驱动。","textPreview":"门控由 |x|、|x|^3、|x|^5 等幅度包络特征驱动。","textChars":30,"textLines":1,"bbox":[617,462,508,48]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":7,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[585,516,24,24]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":7,"text":"保持并行卷积推理路径，避免循环状态。","textPreview":"保持并行卷积推理路径，避免循环状态。","textChars":18,"textLines":1,"bbox":[617,514,508,48]}
+{"kind":"shape","id":"sh/eloj2t83","slide":7,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":7,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/wval87ed","slide":7,"text":"7 / 16","textPreview":"7 / 16","textChars":6,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"image","id":"im/l87ed8ba","slide":7,"name":"","alt":"TCN dilation","bbox":[70,135,450,360]}
+{"kind":"notes","id":"nt/8db6ps","slide":7,"text":""}
+{"kind":"slide","id":"sl/p8sv7f","slide":8,"title":"输出 FIR 与频域带权 LS 直接约束邻道泄漏","textShapes":16}
+{"kind":"shape","id":"sh/qxs72x4n","slide":8,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":8,"text":"输出 FIR 与频域带权 LS 直接约束邻道泄漏","textPreview":"输出 FIR 与频域带权 LS 直接约束邻道泄漏","textChars":24,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/83itgfml","slide":8,"text":"FIR Refit","textPreview":"FIR Refit","textChars":9,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":8,"bbox":[84,140,530,92]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":8,"text":"复数 FIR 输出","textPreview":"复数 FIR 输出","textChars":9,"textLines":1,"bbox":[102,152,494,24]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":8,"text":"\\widehat{y}[n]=\\sum_{m=0}^{M-1}c_m z[n-m]","textPreview":"\\widehat{y}[n]=\\sum_{m=0}^{M-1}c_m z[n-m]","textChars":41,"textLines":1,"bbox":[102,184,494,38]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":8,"bbox":[84,270,650,116]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":8,"text":"频域带权最小二乘 refit","textPreview":"频域带权最小二乘 refit","textChars":14,"textLines":1,"bbox":[102,282,614,24]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":8,"text":"\\min_{\\mathbf{c}}\\ \\left\\|\\mathbf{W}\\left(\\mathbf{FZc}-\\mathbf{FY}\\right)\\right\\|_2^2+\\lambda\\|\\mathbf{c}\\|_2^2","textPreview":"\\min_{\\mathbf{c}}\\ \\left\\|\\mathbf{W}\\left(\\mathbf{FZc}-\\mathbf{FY}\\right)\\right\\|_2^2+\\lambda\\|\\mathbf{c}\\|_2^2","textChars":111,"textLines":1,"bbox":[102,314,614,62]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":8,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[790,152,24,24]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":8,"text":"FIR 不是增加无约束黑盒容量，而是标准 DSP 线性校正。","textPreview":"FIR 不是增加无约束黑盒容量，而是标准 DSP 线性校正。","textChars":30,"textLines":1,"bbox":[822,150,368,52]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":8,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[790,208,24,24]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":8,"text":"固定 TCN 主干后，FIR 系数可稳定求解。","textPreview":"固定 TCN 主干后，FIR 系数可稳定求解。","textChars":23,"textLines":1,"bbox":[822,206,368,52]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":8,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[790,264,24,24]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":8,"text":"主带、邻道和其他频点可设置不同频域权重。","textPreview":"主带、邻道和其他频点可设置不同频域权重。","textChars":20,"textLines":1,"bbox":[822,262,368,52]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":8,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[790,320,24,24]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":8,"text":"对 ACLR 的改善比只优化时域 MSE 更直接。","textPreview":"对 ACLR 的改善比只优化时域 MSE 更直接。","textChars":25,"textLines":1,"bbox":[822,318,368,52]}
+{"kind":"shape","id":"sh/czed8v6p","slide":8,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":8,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":8,"text":"8 / 16","textPreview":"8 / 16","textChars":6,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"notes","id":"nt/p8sv7f","slide":8,"text":""}
+{"kind":"slide","id":"sl/64yj2t","slide":9,"title":"指标公式把主带拟合和邻道泄漏分开衡量","textShapes":13}
+{"kind":"shape","id":"sh/nyd0z610","slide":9,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":9,"text":"指标公式把主带拟合和邻道泄漏分开衡量","textPreview":"指标公式把主带拟合和邻道泄漏分开衡量","textChars":18,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/54zidony","slide":9,"text":"Metrics","textPreview":"Metrics","textChars":7,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":9,"bbox":[78,128,560,105]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":9,"text":"验证集 NMSE","textPreview":"验证集 NMSE","textChars":8,"textLines":1,"bbox":[96,140,524,24]}
+{"kind":"textbox","id":"sh/cvixczed","slide":9,"text":"\\mathrm{NMSE}=\\frac{\\sum_n|\\widehat{y}[n]-y[n]|^2}{\\sum_n|y[n]|^2}","textPreview":"\\mathrm{NMSE}=\\frac{\\sum_n|\\widehat{y}[n]-y[n]|^2}{\\sum_n|y[n]|^2}","textChars":66,"textLines":1,"bbox":[96,172,524,51]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":9,"bbox":[78,260,560,85]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":9,"text":"dB 表达","textPreview":"dB 表达","textChars":5,"textLines":1,"bbox":[96,272,524,24]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":9,"text":"\\mathrm{NMSE}_{dB}=10\\log_{10}(\\mathrm{NMSE})","textPreview":"\\mathrm{NMSE}_{dB}=10\\log_{10}(\\mathrm{NMSE})","textChars":45,"textLines":1,"bbox":[96,304,524,31]}
+{"kind":"shape","id":"sh/b6xkf6dc","slide":9,"bbox":[680,128,535,112]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":9,"text":"邻道泄漏比","textPreview":"邻道泄漏比","textChars":5,"textLines":1,"bbox":[698,140,499,24]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":9,"text":"\\mathrm{ACLR}_{dBc}=\\operatorname{mean}(\\mathrm{PSD}_{adj})-\\operatorname{mean}(\\mathrm{PSD}_{main})","textPreview":"\\mathrm{ACLR}_{dBc}=\\operatorname{mean}(\\mathrm{PSD}_{adj})-\\operatorname{mean}(\\mathrm{PSD}_{main})","textChars":100,"textLines":1,"bbox":[698,172,499,58]}
+{"kind":"shape","id":"sh/0rqd4vmt","slide":9,"bbox":[680,275,535,92]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":9,"text":"上下邻道 worst 口径","textPreview":"上下邻道 worst 口径","textChars":13,"textLines":1,"bbox":[698,287,499,24]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":9,"text":"\\mathrm{ACLR}_{worst}=\\max(\\mathrm{ACLR}_{lower},\\mathrm{ACLR}_{upper})","textPreview":"\\mathrm{ACLR}_{worst}=\\max(\\mathrm{ACLR}_{lower},\\mathrm{ACLR}_{upper})","textChars":71,"textLines":1,"bbox":[698,319,499,38]}
+{"kind":"shape","id":"sh/t47y1kre","slide":9,"bbox":[240,430,790,88]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":9,"text":"判定逻辑：NMSE 反映主带复数时域拟合，ACLR 反映邻道频谱泄漏；两者必须同时满足才算达标。","textPreview":"判定逻辑：NMSE 反映主带复数时域拟合，ACLR 反映邻道频谱泄漏；两者必须同时满足才算达标。","textChars":48,"textLines":1,"bbox":[275,457,720,28]}
+{"kind":"shape","id":"sh/bulwval8","slide":9,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":9,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":9,"text":"9 / 16","textPreview":"9 / 16","textChars":6,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"notes","id":"nt/64yj2t","slide":9,"text":""}
+{"kind":"slide","id":"sl/r3iomv","slide":10,"title":"复杂度统计把结构压缩转化为乘法器预算","textShapes":37}
+{"kind":"shape","id":"sh/ahoza1gv","slide":10,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":10,"text":"复杂度统计把结构压缩转化为乘法器预算","textPreview":"复杂度统计把结构压缩转化为乘法器预算","textChars":18,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":10,"text":"Complexity","textPreview":"Complexity","textChars":10,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":10,"bbox":[72,130,500,98]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":10,"text":"等效实数乘法器数","textPreview":"等效实数乘法器数","textChars":8,"textLines":1,"bbox":[90,142,464,24]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":10,"text":"4P+C_{in}H+B(HK+H^2)+2H+3HC_a+4M","textPreview":"4P+C_{in}H+B(HK+H^2)+2H+3HC_a+4M","textChars":32,"textLines":1,"bbox":[90,174,464,44]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":10,"text":"统计项：显式复数多项式、输入投影、TCN K-tap 卷积、逐点混合、输出投影、谱注意力和 M-tap 复数 FIR。","textPreview":"统计项：显式复数多项式、输入投影、TCN K-tap 卷积、逐点混合、输出投影、谱注意力和 M-tap 复数 FIR。","textChars":59,"textLines":1,"bbox":[80,258,520,80]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":10,"bbox":[635,132,150,44]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":10,"text":"模型","textPreview":"模型","textChars":2,"textLines":1,"bbox":[643,142,134,32]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":10,"bbox":[785,132,90,44]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":10,"text":"MAC","textPreview":"MAC","textChars":3,"textLines":1,"bbox":[793,142,74,32]}
+{"kind":"shape","id":"sh/ed8bat47","slide":10,"bbox":[875,132,100,44]}
+{"kind":"textbox","id":"sh/7u54zido","slide":10,"text":"NMSE/dB","textPreview":"NMSE/dB","textChars":7,"textLines":1,"bbox":[883,142,84,32]}
+{"kind":"shape","id":"sh/wra5gbq1","slide":10,"bbox":[975,132,120,44]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":10,"text":"worst ACLR","textPreview":"worst ACLR","textChars":10,"textLines":1,"bbox":[983,142,104,32]}
+{"kind":"shape","id":"sh/eloj2t83","slide":10,"bbox":[1095,132,120,44]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":10,"text":"结论","textPreview":"结论","textChars":2,"textLines":1,"bbox":[1103,142,104,32]}
+{"kind":"shape","id":"sh/wval87ed","slide":10,"bbox":[635,176,150,44]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":10,"text":"主模型","textPreview":"主模型","textChars":3,"textLines":1,"bbox":[643,186,134,32]}
+{"kind":"shape","id":"sh/9knih4by","slide":10,"bbox":[785,176,90,44]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":10,"text":"2284","textPreview":"2284","textChars":4,"textLines":1,"bbox":[793,186,74,32]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":10,"bbox":[875,176,100,44]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":10,"text":"-40.15","textPreview":"-40.15","textChars":6,"textLines":1,"bbox":[883,186,84,32]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":10,"bbox":[975,176,120,44]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":10,"text":"-48.77","textPreview":"-48.77","textChars":6,"textLines":1,"bbox":[983,186,104,32]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":10,"bbox":[1095,176,120,44]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":10,"text":"达标","textPreview":"达标","textChars":2,"textLines":1,"bbox":[1103,186,104,32]}
+{"kind":"shape","id":"sh/94fu18jq","slide":10,"bbox":[635,220,150,44]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":10,"text":"最小达标","textPreview":"最小达标","textChars":4,"textLines":1,"bbox":[643,230,134,32]}
+{"kind":"shape","id":"sh/udg7adsj","slide":10,"bbox":[785,220,90,44]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":10,"text":"2268","textPreview":"2268","textChars":4,"textLines":1,"bbox":[793,230,74,32]}
+{"kind":"shape","id":"sh/cj6tovah","slide":10,"bbox":[875,220,100,44]}
+{"kind":"textbox","id":"sh/54zidony","slide":10,"text":"-40.03","textPreview":"-40.03","textChars":6,"textLines":1,"bbox":[883,230,84,32]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":10,"bbox":[975,220,120,44]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":10,"text":"-45.04","textPreview":"-45.04","textChars":6,"textLines":1,"bbox":[983,230,104,32]}
+{"kind":"shape","id":"sh/cvixczed","slide":10,"bbox":[1095,220,120,44]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":10,"text":"达标","textPreview":"达标","textChars":2,"textLines":1,"bbox":[1103,230,104,32]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":10,"bbox":[635,264,150,44]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":10,"text":"998 模型","textPreview":"998 模型","textChars":6,"textLines":1,"bbox":[643,274,134,32]}
+{"kind":"shape","id":"sh/neloj2t8","slide":10,"bbox":[785,264,90,44]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":10,"text":"998","textPreview":"998","textChars":3,"textLines":1,"bbox":[793,274,74,32]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":10,"bbox":[875,264,100,44]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":10,"text":"-37.37","textPreview":"-37.37","textChars":6,"textLines":1,"bbox":[883,274,84,32]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":10,"bbox":[975,264,120,44]}
+{"kind":"textbox","id":"sh/u54zidon","slide":10,"text":"-45.30","textPreview":"-45.30","textChars":6,"textLines":1,"bbox":[983,274,104,32]}
+{"kind":"shape","id":"sh/5sneloj2","slide":10,"bbox":[1095,264,120,44]}
+{"kind":"textbox","id":"sh/cbulwval","slide":10,"text":"ACLR 达标","textPreview":"ACLR 达标","textChars":7,"textLines":1,"bbox":[1103,274,104,32]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":10,"bbox":[635,308,150,44]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":10,"text":"796 模型","textPreview":"796 模型","textChars":6,"textLines":1,"bbox":[643,318,134,32]}
+{"kind":"shape","id":"sh/87ed8bat","slide":10,"bbox":[785,308,90,44]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":10,"text":"796","textPreview":"796","textChars":3,"textLines":1,"bbox":[793,318,74,32]}
+{"kind":"shape","id":"sh/q1orytsv","slide":10,"bbox":[875,308,100,44]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":10,"text":"-35.20","textPreview":"-35.20","textChars":6,"textLines":1,"bbox":[883,318,84,32]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":10,"bbox":[975,308,120,44]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":10,"text":"-47.03","textPreview":"-47.03","textChars":6,"textLines":1,"bbox":[983,318,104,32]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":10,"bbox":[1095,308,120,44]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":10,"text":"ACLR 达标","textPreview":"ACLR 达标","textChars":7,"textLines":1,"bbox":[1103,318,104,32]}
+{"kind":"shape","id":"sh/8v6psfil","slide":10,"bbox":[635,352,150,44]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":10,"text":"786 专项","textPreview":"786 专项","textChars":6,"textLines":1,"bbox":[643,362,134,32]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":10,"bbox":[785,352,90,44]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":10,"text":"786","textPreview":"786","textChars":3,"textLines":1,"bbox":[793,362,74,32]}
+{"kind":"shape","id":"sh/zidonyd0","slide":10,"bbox":[875,352,100,44]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":10,"text":"-35.46","textPreview":"-35.46","textChars":6,"textLines":1,"bbox":[883,362,84,32]}
+{"kind":"shape","id":"sh/hgn29gr2","slide":10,"bbox":[975,352,120,44]}
+{"kind":"textbox","id":"sh/svu9knih","slide":10,"text":"-46.76","textPreview":"-46.76","textChars":6,"textLines":1,"bbox":[983,362,104,32]}
+{"kind":"shape","id":"sh/za1gvy90","slide":10,"bbox":[1095,352,120,44]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":10,"text":"ACLR 达标","textPreview":"ACLR 达标","textChars":7,"textLines":1,"bbox":[1103,362,104,32]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":10,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/sji5snel","slide":10,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":10,"text":"10 / 16","textPreview":"10 / 16","textChars":7,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"notes","id":"nt/r3iomv","slide":10,"text":""}
+{"kind":"slide","id":"sl/b452fg","slide":11,"title":"统一评估流程保证不同模型可横向比较","textShapes":19}
+{"kind":"shape","id":"sh/czed8v6p","slide":11,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":11,"text":"统一评估流程保证不同模型可横向比较","textPreview":"统一评估流程保证不同模型可横向比较","textChars":17,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":11,"text":"Evaluation","textPreview":"Evaluation","textChars":10,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/5sneloj2","slide":11,"bbox":[100,150,230,72]}
+{"kind":"textbox","id":"sh/cbulwval","slide":11,"text":"checkpoint","textPreview":"checkpoint","textChars":10,"textLines":1,"bbox":[112,166,205,44]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":11,"bbox":[100,260,230,72]}
+{"kind":"textbox","id":"sh/u54zidon","slide":11,"text":"验证集推理\npred_y","textPreview":"验证集推理 | pred_y","textChars":12,"textLines":2,"bbox":[112,276,205,44]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":11,"bbox":[430,260,230,72]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":11,"text":"时域误差\nNMSE / linear NMSE","textPreview":"时域误差 | NMSE / linear NMSE","textChars":23,"textLines":2,"bbox":[442,276,205,44]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":11,"bbox":[760,260,230,72]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":11,"text":"频域估计\nPSD / lower / upper ACLR","textPreview":"频域估计 | PSD / lower / upper ACLR","textChars":29,"textLines":2,"bbox":[772,276,205,44]}
+{"kind":"shape","id":"sh/83itgfml","slide":11,"bbox":[430,430,230,72]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":11,"text":"统一输出\nCSV / 图表 / MAC","textPreview":"统一输出 | CSV / 图表 / MAC","textChars":19,"textLines":2,"bbox":[442,446,205,44]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[250,275,80,44]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[585,275,80,44]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":11,"text":"↘","textPreview":"↘","textChars":1,"textLines":1,"bbox":[500,338,80,44]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":11,"text":"↙","textPreview":"↙","textChars":1,"textLines":1,"bbox":[810,338,80,44]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":11,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[100,547,24,24]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":11,"text":"统一脚本输出线性 NMSE、dB NMSE、上下邻道 ACLR 和 worst ACLR。","textPreview":"统一脚本输出线性 NMSE、dB NMSE、上下邻道 ACLR 和 worst ACLR。","textChars":45,"textLines":1,"bbox":[132,545,908,38]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":11,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[100,589,24,24]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":11,"text":"PSD 图用于复核主带谱形和邻道泄漏。","textPreview":"PSD 图用于复核主带谱形和邻道泄漏。","textChars":19,"textLines":1,"bbox":[132,587,908,38]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":11,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[100,631,24,24]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":11,"text":"表格数值均以统一评估输出为准。","textPreview":"表格数值均以统一评估输出为准。","textChars":15,"textLines":1,"bbox":[132,629,908,38]}
+{"kind":"shape","id":"sh/7u54zido","slide":11,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":11,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":11,"text":"11 / 16","textPreview":"11 / 16","textChars":7,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"notes","id":"nt/b452fg","slide":11,"text":""}
+{"kind":"slide","id":"sl/5asrng","slide":12,"title":"主模型达成双指标并保留 ACLR 余量","textShapes":11}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":12,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":12,"text":"主模型达成双指标并保留 ACLR 余量","textPreview":"主模型达成双指标并保留 ACLR 余量","textChars":19,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":12,"text":"Main Result","textPreview":"Main Result","textChars":11,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":12,"bbox":[70,130,280,106]}
+{"kind":"textbox","id":"sh/u54zidon","slide":12,"text":"NMSE -40.15 dB","textPreview":"NMSE -40.15 dB","textChars":14,"textLines":1,"bbox":[88,144,244,34]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":12,"text":"满足 -40 dB 目标 · 达标","textPreview":"满足 -40 dB 目标 · 达标","textChars":17,"textLines":1,"bbox":[88,186,244,40]}
+{"kind":"shape","id":"sh/cbulwval","slide":12,"bbox":[70,248,280,106]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":12,"text":"worst ACLR -48.77 dBc","textPreview":"worst ACLR -48.77 dBc","textChars":21,"textLines":1,"bbox":[88,262,244,34]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":12,"text":"相对门限约 3.77 dB 余量 · 达标","textPreview":"相对门限约 3.77 dB 余量 · 达标","textChars":21,"textLines":1,"bbox":[88,304,244,40]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":12,"bbox":[70,374,280,100]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":12,"text":"结构","textPreview":"结构","textChars":2,"textLines":1,"bbox":[92,392,90,24]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":12,"text":"H15/L6/Input-9/FIR43\n2284 real multipliers","textPreview":"H15/L6/Input-9/FIR43 | 2284 real multipliers","textChars":42,"textLines":2,"bbox":[92,424,230,44]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":12,"text":"频域校正显著压低邻道谱翅膀，训练后期逐步逼近 -40 dB NMSE 目标。","textPreview":"频域校正显著压低邻道谱翅膀，训练后期逐步逼近 -40 dB NMSE 目标。","textChars":38,"textLines":1,"bbox":[405,505,740,34]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":12,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":12,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":12,"text":"12 / 16","textPreview":"12 / 16","textChars":7,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"image","id":"im/kb6xkf6d","slide":12,"name":"","alt":"Main model PSD ACLR","bbox":[400,128,470,330]}
+{"kind":"image","id":"im/re1w7mp0","slide":12,"name":"","alt":"Main ACLR bar","bbox":[900,135,260,155]}
+{"kind":"image","id":"im/2t83itgf","slide":12,"name":"","alt":"Main convergence","bbox":[900,330,260,155]}
+{"kind":"notes","id":"nt/5asrng","slide":12,"text":""}
+{"kind":"slide","id":"sl/gn3je4","slide":13,"title":"轻量模型证明 ACLR 可保，NMSE 受主干容量限制","textShapes":10}
+{"kind":"shape","id":"sh/pg3ex0nu","slide":13,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":13,"text":"轻量模型证明 ACLR 可保，NMSE 受主干容量限制","textPreview":"轻量模型证明 ACLR 可保，NMSE 受主干容量限制","textChars":27,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":13,"text":"Lightweight","textPreview":"Lightweight","textChars":11,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":13,"text":"998 MAC · Input-9/attention4/FIR39","textPreview":"998 MAC · Input-9/attention4/FIR39","textChars":34,"textLines":1,"bbox":[95,120,420,28]}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":13,"bbox":[100,465,420,106]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":13,"text":"NMSE -37.37 dB","textPreview":"NMSE -37.37 dB","textChars":14,"textLines":1,"bbox":[118,479,384,34]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":13,"text":"ACLR -45.30 dBc · ACLR 达标 / NMSE 未达标","textPreview":"ACLR -45.30 dBc · ACLR 达标 / NMSE 未达标","textChars":36,"textLines":1,"bbox":[118,521,384,40]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":13,"text":"796 MAC · H10/L3/Input-6/FIR41","textPreview":"796 MAC · H10/L3/Input-6/FIR41","textChars":30,"textLines":1,"bbox":[705,120,420,28]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":13,"bbox":[710,465,420,106]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":13,"text":"NMSE -35.20 dB","textPreview":"NMSE -35.20 dB","textChars":14,"textLines":1,"bbox":[728,479,384,34]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":13,"text":"ACLR -47.03 dBc · ACLR 达标 / NMSE 未达标","textPreview":"ACLR -47.03 dBc · ACLR 达标 / NMSE 未达标","textChars":36,"textLines":1,"bbox":[728,521,384,40]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":13,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/obm58z25","slide":13,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":13,"text":"13 / 16","textPreview":"13 / 16","textChars":7,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"image","id":"im/8jqh0fep","slide":13,"name":"","alt":"998 PSD ACLR","bbox":[80,160,480,285]}
+{"kind":"image","id":"im/ed8v6psf","slide":13,"name":"","alt":"796 PSD ACLR","bbox":[690,160,480,285]}
+{"kind":"notes","id":"nt/gn3je4","slide":13,"text":""}
+{"kind":"slide","id":"sl/dt4cm7","slide":14,"title":"786 MAC 专项模型在极低预算下保持 ACLR 达标","textShapes":16}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":14,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/ulwval87","slide":14,"text":"786 MAC 专项模型在极低预算下保持 ACLR 达标","textPreview":"786 MAC 专项模型在极低预算下保持 ACLR 达标","textChars":28,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":14,"text":"786 MAC","textPreview":"786 MAC","textChars":7,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":14,"bbox":[68,120,430,170]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":14,"text":"结构与 checkpoint","textPreview":"结构与 checkpoint","textChars":14,"textLines":1,"bbox":[92,140,240,26]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":14,"text":"H10/L4/Input-6/pointwise rank 3/FIR41\n786 real multipliers\nstep800_scratch_h10_l4_base6_rank3_fir41_786.pth","textPreview":"H10/L4/Input-6/pointwise rank 3/FIR41 | 786 real multipliers | step800_scratch_h10_l4_base6_rank3_fir41_786.pth","textChars":107,"textLines":3,"bbox":[92,178,370,86]}
+{"kind":"shape","id":"sh/ji5snelo","slide":14,"bbox":[535,120,270,106]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":14,"text":"NMSE -35.46 dB","textPreview":"NMSE -35.46 dB","textChars":14,"textLines":1,"bbox":[553,134,234,34]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":14,"text":"距 -40 dB 约 4.54 dB · 未达标","textPreview":"距 -40 dB 约 4.54 dB · 未达标","textChars":24,"textLines":1,"bbox":[553,176,234,40]}
+{"kind":"shape","id":"sh/d0z61032","slide":14,"bbox":[835,120,300,106]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":14,"text":"worst ACLR -46.76 dBc","textPreview":"worst ACLR -46.76 dBc","textChars":21,"textLines":1,"bbox":[853,134,264,34]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":14,"text":"相对门限约 1.76 dB 余量 · ACLR 达标","textPreview":"相对门限约 1.76 dB 余量 · ACLR 达标","textChars":26,"textLines":1,"bbox":[853,176,264,40]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":14,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[790,337,24,24]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":14,"text":"FIR41 保住邻道泄漏，ACLR 有约 1.76 dB 门限余量。","textPreview":"FIR41 保住邻道泄漏，ACLR 有约 1.76 dB 门限余量。","textChars":34,"textLines":1,"bbox":[822,335,348,58]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":14,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[790,399,24,24]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":14,"text":"L4 + rank3 pointwise 接近 796 baseline，但主干容量不足以达到 -40 dB。","textPreview":"L4 + rank3 pointwise 接近 796 baseline，但主干容量不足以达到 -40 dB。","textChars":55,"textLines":1,"bbox":[822,397,348,58]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":14,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[790,461,24,24]}
+{"kind":"textbox","id":"sh/9knih4by","slide":14,"text":"<=800 MAC 的主要瓶颈是低复杂度主干的非线性拟合能力。","textPreview":"<=800 MAC 的主要瓶颈是低复杂度主干的非线性拟合能力。","textChars":31,"textLines":1,"bbox":[822,459,348,58]}
+{"kind":"shape","id":"sh/2t83itgf","slide":14,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":14,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":14,"text":"14 / 16","textPreview":"14 / 16","textChars":7,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"image","id":"im/p0bi9s36","slide":14,"name":"","alt":"786 PSD ACLR","bbox":[70,335,430,255]}
+{"kind":"image","id":"im/ixczed8v","slide":14,"name":"","alt":"786 ACLR bar","bbox":[535,330,210,135]}
+{"kind":"image","id":"im/bi9s36hc","slide":14,"name":"","alt":"786 convergence","bbox":[535,475,210,135]}
+{"kind":"notes","id":"nt/dt4cm7","slide":14,"text":""}
+{"kind":"slide","id":"sl/40ge7d","slide":15,"title":"TCN + FIR 路线更适合端侧流水部署","textShapes":12}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":15,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":15,"text":"TCN + FIR 路线更适合端侧流水部署","textPreview":"TCN + FIR 路线更适合端侧流水部署","textChars":21,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":15,"text":"Engineering Value","textPreview":"Engineering Value","textChars":17,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":15,"bbox":[90,145,500,145]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":15,"text":"频谱合规","textPreview":"频谱合规","textChars":4,"textLines":1,"bbox":[114,167,180,30]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":15,"text":"主模型 worst ACLR -48.77 dBc，相对 -45 dBc 目标有约 3.77 dB 余量。","textPreview":"主模型 worst ACLR -48.77 dBc，相对 -45 dBc 目标有约 3.77 dB 余量。","textChars":53,"textLines":1,"bbox":[114,211,440,54]}
+{"kind":"shape","id":"sh/58z25kb6","slide":15,"bbox":[680,145,500,145]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":15,"text":"主带精度","textPreview":"主带精度","textChars":4,"textLines":1,"bbox":[704,167,180,30]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":15,"text":"主模型 NMSE -40.15 dB，满足结题目标。","textPreview":"主模型 NMSE -40.15 dB，满足结题目标。","textChars":26,"textLines":1,"bbox":[704,211,440,54]}
+{"kind":"shape","id":"sh/nap4r65w","slide":15,"bbox":[90,365,500,145]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":15,"text":"可压缩起点","textPreview":"可压缩起点","textChars":5,"textLines":1,"bbox":[114,387,180,30]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":15,"text":"2268/2284 MAC 达标模型可作为剪枝、低秩和 QAT 的教师或初始化。","textPreview":"2268/2284 MAC 达标模型可作为剪枝、低秩和 QAT 的教师或初始化。","textChars":40,"textLines":1,"bbox":[114,431,440,54]}
+{"kind":"shape","id":"sh/cvixczed","slide":15,"bbox":[680,365,500,145]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":15,"text":"部署友好","textPreview":"部署友好","textChars":4,"textLines":1,"bbox":[704,387,180,30]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":15,"text":"扩张卷积、逐点混合和 FIR 均可映射为确定性乘加流水。","textPreview":"扩张卷积、逐点混合和 FIR 均可映射为确定性乘加流水。","textChars":28,"textLines":1,"bbox":[704,431,440,54]}
+{"kind":"shape","id":"sh/54zidony","slide":15,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":15,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/judg7ads","slide":15,"text":"15 / 16","textPreview":"15 / 16","textChars":7,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"notes","id":"nt/40ge7d","slide":15,"text":""}
+{"kind":"slide","id":"sl/3rq999","slide":16,"title":"结题结论聚焦达标交付和低复杂度边界","textShapes":17}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":16,"bbox":[0,0,1280,78]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":16,"text":"结题结论聚焦达标交付和低复杂度边界","textPreview":"结题结论聚焦达标交付和低复杂度边界","textChars":17,"textLines":1,"bbox":[58,20,920,48]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":16,"text":"Conclusion","textPreview":"Conclusion","textChars":10,"textLines":1,"bbox":[1000,27,220,28]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":16,"bbox":[78,130,520,150]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":16,"text":"已完成目标","textPreview":"已完成目标","textChars":5,"textLines":1,"bbox":[108,158,200,30]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":16,"text":"EA-TCN 主模型在 2284 MAC 下达到 NMSE -40.15 dB 与 worst ACLR -48.77 dBc，满足赛题双指标。","textPreview":"EA-TCN 主模型在 2284 MAC 下达到 NMSE -40.15 dB 与 worst ACLR -48.77 dBc，满足赛题双指标。","textChars":72,"textLines":1,"bbox":[108,203,450,54]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":16,"bbox":[78,325,520,150]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":16,"text":"轻量化边界","textPreview":"轻量化边界","textChars":5,"textLines":1,"bbox":[108,353,220,30]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":16,"text":"998、796、786 MAC 模型均能保持 ACLR 达标，但 NMSE 未达标，极低复杂度下主干容量是关键限制。","textPreview":"998、796、786 MAC 模型均能保持 ACLR 达标，但 NMSE 未达标，极低复杂度下主干容量是关键限制。","textChars":58,"textLines":1,"bbox":[108,398,450,54]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":16,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[700,152,24,24]}
+{"kind":"textbox","id":"sh/83itgfml","slide":16,"text":"从 2284/2268 MAC 达标模型出发做结构化剪枝。","textPreview":"从 2284/2268 MAC 达标模型出发做结构化剪枝。","textChars":29,"textLines":1,"bbox":[732,150,398,60]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":16,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[700,216,24,24]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":16,"text":"对 pointwise 混合层继续做低秩分解与恢复训练。","textPreview":"对 pointwise 混合层继续做低秩分解与恢复训练。","textChars":28,"textLines":1,"bbox":[732,214,398,60]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":16,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[700,280,24,24]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":16,"text":"引入 QAT 定点量化，评估 FPGA/DSP 流水实现。","textPreview":"引入 QAT 定点量化，评估 FPGA/DSP 流水实现。","textChars":29,"textLines":1,"bbox":[732,278,398,60]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":16,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[700,344,24,24]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":16,"text":"保留频域带权 refit，持续约束邻道泄漏。","textPreview":"保留频域带权 refit，持续约束邻道泄漏。","textChars":22,"textLines":1,"bbox":[732,342,398,60]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":16,"text":"谢谢各位老师指导","textPreview":"谢谢各位老师指导","textChars":8,"textLines":1,"bbox":[720,560,380,40]}
+{"kind":"shape","id":"sh/4r65wjud","slide":16,"bbox":[0,688,1280,32]}
+{"kind":"textbox","id":"sh/032lszqt","slide":16,"text":"Lightweight AI DPD Final Defense","textPreview":"Lightweight AI DPD Final Defense","textChars":32,"textLines":1,"bbox":[58,694,500,20]}
+{"kind":"textbox","id":"sh/tovahoza","slide":16,"text":"16 / 16","textPreview":"16 / 16","textChars":7,"textLines":1,"bbox":[1160,694,70,20]}
+{"kind":"notes","id":"nt/3rq999","slide":16,"text":""}
