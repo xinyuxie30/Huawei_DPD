@@ -1,0 +1,2 @@
+variant,multipliers,nmse_linear,nmse_db,full_worst,point_worst,narrow_worst,three_metric_worst,checkpoint
+ttrans_2284,2284,1.5112312914320531,1.7933093747305255,-5.717968958662752,-8.901845655070659,-4.018346295828422,-4.018346295828422,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\paper_ttrans_tcn_experiments\compatible_smoke\ttrans_2284\best.pth

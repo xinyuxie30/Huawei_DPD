@@ -1,0 +1,2 @@
+model,source_checkpoint,nmse_limit_db,nmse_linear,nmse_db,point_lower_db,point_upper_db,point_worst_db,point_lower_mhz,point_upper_mhz,integrated_aclr_db,checkpoint
+796,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\aclr_ref_convention\active_bin_tables_all\796\best.pth,-35.0,0.00028058694982914376,-35.51932531985456,-41.27936868556431,-41.27911156515768,-41.27911156515768,-131.16,132.84,-40.357160991697484,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\aclr_ref_convention\active_bin_tables_796_r2\796\best.pth

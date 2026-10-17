@@ -1,0 +1,2 @@
+adjacent_weight,floor_weight,full_lower,full_upper,full_worst,model,narrow_boost,narrow_lower,narrow_upper,narrow_worst,nmse_db,nmse_target_db,point_lower,point_upper,point_worst,ridge,source,three_metric_worst
+300.0,1.0,-43.06378628119276,-43.18388420263223,-43.06378628119276,2284,4.0,-43.96003431128371,-44.622983925944155,-43.96003431128371,-40.035673342313665,-40.0,-45.25921896981066,-45.34563618391303,-45.25921896981066,0.0001,ls_sweep,-43.06378628119276

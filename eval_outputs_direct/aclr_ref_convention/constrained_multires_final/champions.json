@@ -1,0 +1,59 @@
+{
+  "selection_date": "2026-07-16",
+  "selection_split": "validation split=0.8; selection score, not independent test",
+  "constraints": {
+    "nmse_db": {"2284": -40.0, "998": -37.0, "786": -35.0, "796": -35.0},
+    "mac": {"2284": 2399, "998": 998, "786": 800, "796": 796},
+    "psd_rule": "shape-first; 4096 point must remain no worse than the original fir_pointsweep baseline; 2048/8192 and notch are guards"
+  },
+  "models": {
+    "2284": {
+      "checkpoint": "constrained_multires_final/2284/best.pth",
+      "selected_from": "multires_integrated_r1/2284/best.pth",
+      "mac": 2388,
+      "nmse_db": -40.35995316194993,
+      "point_2048_db": -44.676486578053215,
+      "point_4096_db": -45.48190927299743,
+      "point_8192_db": -46.19332166768271,
+      "integrated_aclr_db": -44.75517261617735,
+      "shape_score_db": 1.2281744144166489,
+      "notch_depth_db": 3.668073655244342
+    },
+    "998": {
+      "checkpoint": "constrained_multires_final/998/best.pth",
+      "selected_from": "multires_band_qualified/998/best.pth",
+      "mac": 998,
+      "nmse_db": -37.32651764566077,
+      "point_2048_db": -42.170661715120104,
+      "point_4096_db": -43.58003258599226,
+      "point_8192_db": -44.03012395711892,
+      "integrated_aclr_db": -42.2606250964033,
+      "shape_score_db": 1.2018130524910156,
+      "notch_depth_db": 3.8943049258342057
+    },
+    "786": {
+      "checkpoint": "constrained_multires_final/786/best.pth",
+      "selected_from": "multires_band_qualified/786/best.pth",
+      "mac": 798,
+      "nmse_db": -35.70460181305301,
+      "point_2048_db": -41.05181532468703,
+      "point_4096_db": -41.75534436074362,
+      "point_8192_db": -41.89558639248,
+      "integrated_aclr_db": -40.372924324067384,
+      "shape_score_db": 1.2031207238170885,
+      "notch_depth_db": 4.544288568796972
+    },
+    "796": {
+      "checkpoint": "constrained_multires_final/796/best.pth",
+      "selected_from": "multires_band_r1/796/best.pth",
+      "mac": 796,
+      "nmse_db": -35.527952867801176,
+      "point_2048_db": -40.23205450920955,
+      "point_4096_db": -41.30884708617988,
+      "point_8192_db": -42.0915510890008,
+      "integrated_aclr_db": -40.42332271259984,
+      "shape_score_db": 1.1968967393934313,
+      "notch_depth_db": 3.5575312123160643
+    }
+  }
+}

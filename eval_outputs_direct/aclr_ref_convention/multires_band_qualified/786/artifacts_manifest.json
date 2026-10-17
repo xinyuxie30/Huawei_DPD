@@ -1,0 +1,42 @@
+{
+  "checkpoint": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\multires_band_qualified\\786\\best.pth",
+    "exists": true,
+    "bytes": 16937
+  },
+  "summary": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\multires_band_qualified\\786\\summary.json",
+    "exists": true,
+    "bytes": 3023
+  },
+  "search": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\multires_band_qualified\\786\\search.csv",
+    "exists": true,
+    "bytes": 1633646
+  },
+  "nmse_history": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\multires_band_qualified\\786\\nmse_history.csv",
+    "exists": true,
+    "bytes": 51155
+  },
+  "psd_plot": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\multires_band_qualified\\786\\psd_comparison.png",
+    "exists": true,
+    "bytes": 439989
+  },
+  "nmse_curve": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\multires_band_qualified\\786\\nmse_convergence.png",
+    "exists": true,
+    "bytes": 224129
+  },
+  "sidecar": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\multires_band_qualified\\786\\best.sidecar.json",
+    "exists": true,
+    "bytes": 7875
+  },
+  "offsets": {
+    "path": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\multires_band_qualified\\786\\offsets.json",
+    "exists": true,
+    "bytes": 101
+  }
+}

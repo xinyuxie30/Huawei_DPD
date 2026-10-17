@@ -1,0 +1,16 @@
+{
+  "label": "2284_carved",
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\budget2399_ab2\\2284\\best.pth",
+  "mac": 2388,
+  "mac_limit": 2399,
+  "nmse_db": -40.14213979154167,
+  "integrated_aclr_db": -44.38785127946092,
+  "point_worst_db": -46.16038576845435,
+  "ref_point_worst_db": -45.10452191091548,
+  "adj_mean_abs_dev_db": 1.0893319252773361,
+  "adj_max_notch_db": 4.554234708565289,
+  "adj_ref_notch_db": 3.102627220063198,
+  "wide_mean_abs_dev_db": 1.0901464218904746,
+  "wide_max_notch_db": 4.306008216413474,
+  "wide_ref_notch_db": 3.850447067223314
+}

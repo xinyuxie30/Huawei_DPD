@@ -1,0 +1,2 @@
+model,nmse_target_db,nmse_linear,nmse_db,full_lower,full_upper,full_worst,point_lower,point_upper,point_worst,narrow_lower,narrow_upper,narrow_worst,three_metric_worst,checkpoint
+2284,-40.0,0.00013146108507704063,-38.812027873833074,-43.217485192146185,-43.30173296778892,-43.217485192146185,-45.137182379742114,-45.21420541358248,-45.137182379742114,-44.202999581343974,-44.833833524508634,-44.202999581343974,-43.217485192146185,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\aclr_three_metric_experiments\frontier_2284\2284\best.pth

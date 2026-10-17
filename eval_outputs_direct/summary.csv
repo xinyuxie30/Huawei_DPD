@@ -1,0 +1,2 @@
+﻿"checkpoint","real_multipliers","nmse_linear","nmse_db","target_aclr_lower_db","target_aclr_upper_db","target_aclr_worst_db","pred_aclr_lower_db","pred_aclr_upper_db","pred_aclr_worst_db","pred_target_aclr_gap_db","psd_path"
+"best_swa_model_A.pth","782","0.0003298796481745211","-34.81644477295355","-48.65228867898749","-50.90018797401747","-48.65228867898749","-31.099307523592316","-32.35594902695816","-31.099307523592316","17.552981155395173","D:\PyChram_project\Huawei_DPD\eval_outputs_direct\best_swa_model_A_psd.png"

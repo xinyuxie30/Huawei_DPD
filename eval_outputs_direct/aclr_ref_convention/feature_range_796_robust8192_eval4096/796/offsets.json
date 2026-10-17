@@ -1,0 +1,77 @@
+{
+  "model": "796",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\feature_range_796_robust8192_train\\796\\best.pth",
+  "source_offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "selected_offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "target_offset_sets": [
+    [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ]
+  ],
+  "grid": 24,
+  "taps_reduction": 14,
+  "mac": 796,
+  "table_row_semantics": [
+    {
+      "kind": "amplitude",
+      "offset": 0,
+      "row": 0
+    },
+    {
+      "kind": "real",
+      "offset": -2,
+      "row": 1
+    },
+    {
+      "kind": "imag",
+      "offset": -2,
+      "row": 2
+    },
+    {
+      "kind": "real",
+      "offset": -1,
+      "row": 3
+    },
+    {
+      "kind": "imag",
+      "offset": -1,
+      "row": 4
+    },
+    {
+      "kind": "real",
+      "offset": 1,
+      "row": 5
+    },
+    {
+      "kind": "imag",
+      "offset": 1,
+      "row": 6
+    },
+    {
+      "kind": "real",
+      "offset": 2,
+      "row": 7
+    },
+    {
+      "kind": "imag",
+      "offset": 2,
+      "row": 8
+    }
+  ]
+}

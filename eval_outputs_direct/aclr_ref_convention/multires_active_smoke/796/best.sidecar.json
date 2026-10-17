@@ -1,0 +1,155 @@
+{
+  "format": "PhaseSplineDPD raw state_dict plus explicit reconstruction metadata",
+  "model": "796",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\shape_audit_full\\shape\\796\\best.pth",
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\multires_active_smoke\\796\\best.pth",
+  "offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "state_inference": {
+    "grid": 24,
+    "base_fir_taps": 41,
+    "output_fir_taps": 27,
+    "taps_reduction": 14,
+    "table_features": 9
+  },
+  "mac": {
+    "base_no_fir": 632,
+    "fir": 108,
+    "corr": 56,
+    "total": 796,
+    "orig_total": 796
+  },
+  "fit_npersegs": [
+    2048,
+    4096,
+    8192
+  ],
+  "official_selection_nperseg": 4096,
+  "bins_per_side": 1,
+  "protocol": {
+    "active_bin_selection": "lowest lower/upper residual-power bins of validation incumbent",
+    "active_bin_selection_uses_targets": true,
+    "coefficient_fit": "L-BFGS on complete training split only",
+    "validation_samples_used_in_lbfgs": false,
+    "trainable_parameters": [
+      "corr.tables"
+    ],
+    "frozen_components": [
+      "base",
+      "base FIR",
+      "wrapper output FIR",
+      "corr.gmin",
+      "corr.gmax"
+    ],
+    "alpha_and_checkpoint_selection": "validation official 4096 point ACLR under hard NMSE",
+    "objective": "normalized train MSE + spectral_weight * mean normalized active-bin power over all fit resolutions + trust_weight * normalized table distance"
+  },
+  "active_bin_history": [
+    {
+      "round": 1,
+      "selection_sequence": "validation incumbent residual",
+      "coefficient_fit_sequence": "complete training split only",
+      "bins": {
+        "2048": [
+          {
+            "side": "lower",
+            "index": 1547,
+            "frequency_mhz": -120.24,
+            "validation_incumbent_power": 0.13690624182063596,
+            "train_incumbent_scale_power": 0.2029610208600759
+          },
+          {
+            "side": "upper",
+            "index": 530,
+            "frequency_mhz": 127.19999999999999,
+            "validation_incumbent_power": 0.12812249827429983,
+            "train_incumbent_scale_power": 0.1911397831351303
+          }
+        ],
+        "4096": [
+          {
+            "side": "lower",
+            "index": 3003,
+            "frequency_mhz": -131.16,
+            "validation_incumbent_power": 0.19613286487071868,
+            "train_incumbent_scale_power": 0.35900688615268395
+          },
+          {
+            "side": "upper",
+            "index": 1107,
+            "frequency_mhz": 132.84,
+            "validation_incumbent_power": 0.19596580719493084,
+            "train_incumbent_scale_power": 0.3445816545352919
+          }
+        ],
+        "8192": [
+          {
+            "side": "lower",
+            "index": 6005,
+            "frequency_mhz": -131.22,
+            "validation_incumbent_power": 0.182459996026443,
+            "train_incumbent_scale_power": 0.8414931549093059
+          },
+          {
+            "side": "upper",
+            "index": 2222,
+            "frequency_mhz": 133.32,
+            "validation_incumbent_power": 0.2328140522502524,
+            "train_incumbent_scale_power": 0.5925109177164606
+          }
+        ]
+      }
+    }
+  ],
+  "selected_active_bins": null,
+  "selection": {
+    "candidate_id": "source",
+    "description": "source checkpoint",
+    "objective": "integrated",
+    "max_point_regression_db": 0.1,
+    "nmse_limit_db": -35.0
+  },
+  "metrics_by_nperseg": {
+    "2048": {
+      "nmse_linear": 0.0002805892077084401,
+      "nmse_db": -35.51929037237841,
+      "point_lower_db": -40.14600435636456,
+      "point_upper_db": -40.43398286119208,
+      "point_worst_db": -40.14600435636456,
+      "point_lower_mhz": -120.24,
+      "point_upper_mhz": 127.2,
+      "integrated_aclr_db": -40.383308058261804,
+      "integrated_lower_db": -43.26797783730075,
+      "integrated_upper_db": -43.522980884249165
+    },
+    "4096": {
+      "nmse_linear": 0.0002805892077084401,
+      "nmse_db": -35.51929037237841,
+      "point_lower_db": -41.27807488144498,
+      "point_upper_db": -41.2817755943682,
+      "point_worst_db": -41.27807488144498,
+      "point_lower_mhz": -131.16,
+      "point_upper_mhz": 132.84,
+      "integrated_aclr_db": -40.36082405326684,
+      "integrated_lower_db": -43.23984662034695,
+      "integrated_upper_db": -43.506493638147994
+    },
+    "8192": {
+      "nmse_linear": 0.0002805892077084401,
+      "nmse_db": -35.51929037237841,
+      "point_lower_db": -43.225860768663466,
+      "point_upper_db": -42.16744547909536,
+      "point_worst_db": -42.16744547909536,
+      "point_lower_mhz": -131.22,
+      "point_upper_mhz": 133.32,
+      "integrated_aclr_db": -40.37505525742184,
+      "integrated_lower_db": -43.24105749750285,
+      "integrated_upper_db": -43.53461259501701
+    }
+  }
+}

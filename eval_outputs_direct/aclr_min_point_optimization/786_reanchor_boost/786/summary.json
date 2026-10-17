@@ -1,0 +1,12 @@
+{
+  "model": "786",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_min_point_extrapolation\\scan_786_wide\\786\\best.pth",
+  "nmse_target_db": -35.0,
+  "alpha": 0.8,
+  "nmse_linear": 0.000305696116517802,
+  "nmse_db": -35.147100784005126,
+  "aclr_lower_db": -41.567743337124654,
+  "aclr_upper_db": -42.390160629814034,
+  "aclr_worst_db": -41.567743337124654,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_min_point_optimization\\786_reanchor_boost\\786\\best_extrapolated.pth"
+}

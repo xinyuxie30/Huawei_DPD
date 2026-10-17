@@ -1,0 +1,14 @@
+{
+  "model": "2284",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\budget2399_train\\2284\\best.pth",
+  "nmse_limit_db": -40.0,
+  "nmse_linear": 9.654898920664705e-05,
+  "nmse_db": -40.1525226858861,
+  "point_lower_db": -46.04847465316999,
+  "point_upper_db": -46.029623993509006,
+  "point_worst_db": -46.029623993509006,
+  "point_lower_mhz": -137.52,
+  "point_upper_mhz": 128.88,
+  "integrated_aclr_db": -44.38341986453846,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\budget2399_ab\\2284\\best.pth"
+}

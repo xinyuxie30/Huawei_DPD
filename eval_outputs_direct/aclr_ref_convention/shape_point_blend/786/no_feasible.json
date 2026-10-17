@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "nmse_pass": 124,
+    "mac_pass": 204,
+    "point_pass": 22,
+    "integrated_pass": 166,
+    "shape_pass": 109,
+    "notch_pass": 75,
+    "all_pass": 0
+  },
+  "rows": 204
+}

@@ -1,0 +1,2 @@
+model,nmse_target_db,nmse_linear,nmse_db,full_lower,full_upper,full_worst,point_lower,point_upper,point_worst,narrow_lower,narrow_upper,narrow_worst,three_metric_worst,checkpoint
+998,-37.0,0.00018338163430042963,-37.366441611489385,-40.089023849315026,-40.31877111942042,-40.089023849315026,-41.974716845192916,-42.932598053873306,-41.974716845192916,-41.38341724093249,-41.73099139429401,-41.38341724093249,-40.089023849315026,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\aclr_three_metric_experiments\probe_all_D\998\best.pth

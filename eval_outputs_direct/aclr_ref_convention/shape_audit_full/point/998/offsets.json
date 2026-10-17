@@ -1,0 +1,13 @@
+{
+  "model": "998",
+  "selected_offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "mac": 998,
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\resqueeze_998\\998\\best.pth",
+  "offset_source": "model_config.json:offsets"
+}

@@ -1,0 +1,5 @@
+model,status,nmse_target_db,adjacent_weight,floor_weight,ridge,nmse_db,aclr_db,aclr_lower_db,aclr_upper_db,checkpoint_nmse_db,checkpoint_aclr_db,best_path
+2284,aclr_gap,-40.0,100.0,0.05,1e-08,-40.05370987117384,-44.109205154908196,-47.0457251187651,-47.194560206849054,-40.15206355057322,-44.09220986894128,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\aclr_ref_convention\fir_sweep\2284\best.pth
+998,aclr_gap,nan,800.0,1.0,1e-08,-37.35077183624545,-41.28984094113454,-44.13793140247431,-44.46864479329652,-37.366441611489385,-41.21466745727932,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\aclr_ref_convention\fir_sweep\998\best.pth
+786,aclr_gap,nan,800.0,1.0,1e-08,-35.403083034599675,-39.64767793103577,-42.5059427423765,-42.81552907181432,-35.461961136626115,-39.454624347601374,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\aclr_ref_convention\fir_sweep\786\best.pth
+796,aclr_gap,nan,800.0,1.0,1e-08,-35.185934054829914,-39.220439438419035,-42.103461397347424,-42.361860419266584,-35.19926540351454,-38.98653528423182,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\aclr_ref_convention\fir_sweep\796\best.pth

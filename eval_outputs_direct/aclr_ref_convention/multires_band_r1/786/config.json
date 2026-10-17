@@ -1,0 +1,48 @@
+{
+  "model": "786",
+  "checkpoint": "eval_outputs_direct\\aclr_ref_convention\\shape_audit_full\\shape\\786\\best.pth",
+  "offsets": [
+    -2,
+    -1,
+    0,
+    3
+  ],
+  "tag": "multires_band_r1",
+  "spectral_mode": "band",
+  "objective": "integrated",
+  "nmse_limit": null,
+  "mac_limit": null,
+  "fit_npersegs": [
+    2048,
+    4096,
+    8192
+  ],
+  "rounds": 2,
+  "bins_per_side": 3,
+  "bin_separation": 4,
+  "spectral_weights": [
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0
+  ],
+  "trust_weight": 0.0001,
+  "lbfgs_lr": 1.0,
+  "lbfgs_iters": 30,
+  "lbfgs_history": 20,
+  "lbfgs_tolerance_grad": 1e-09,
+  "lbfgs_tolerance_change": 1e-12,
+  "alpha_min": 0.0,
+  "alpha_max": 2.0,
+  "alpha_step": 0.05,
+  "minimum_gain": 0.0001,
+  "max_point_regression_db": 0.1,
+  "fs_mhz": 491.52,
+  "split": 0.8,
+  "seed": 20260716,
+  "resolved_nmse_limit_db": -35.0,
+  "official_nperseg": 4096
+}

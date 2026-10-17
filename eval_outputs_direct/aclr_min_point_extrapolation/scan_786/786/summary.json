@@ -1,0 +1,11 @@
+{
+  "model": "786",
+  "alpha": 5.0,
+  "nmse_target_db": -35.0,
+  "nmse_linear": 0.0003023775320859682,
+  "nmse_db": -35.19450481866577,
+  "aclr_lower_db": -41.37270774219378,
+  "aclr_upper_db": -42.32390062995361,
+  "aclr_worst_db": -41.37270774219378,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_min_point_extrapolation\\scan_786\\786\\best.pth"
+}

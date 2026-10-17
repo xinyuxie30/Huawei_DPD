@@ -1,0 +1,51 @@
+{
+  "model": "786",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\feature_range_fir_rand_r2\\786\\best.pth",
+  "source_offsets": [
+    -1,
+    0,
+    3
+  ],
+  "selected_offsets": [
+    -1,
+    0,
+    3
+  ],
+  "target_offset_sets": [
+    [
+      -1,
+      0,
+      3
+    ]
+  ],
+  "grid": 24,
+  "taps_reduction": 8,
+  "mac": 786,
+  "table_row_semantics": [
+    {
+      "kind": "amplitude",
+      "offset": 0,
+      "row": 0
+    },
+    {
+      "kind": "real",
+      "offset": -1,
+      "row": 1
+    },
+    {
+      "kind": "imag",
+      "offset": -1,
+      "row": 2
+    },
+    {
+      "kind": "real",
+      "offset": 3,
+      "row": 3
+    },
+    {
+      "kind": "imag",
+      "offset": 3,
+      "row": 4
+    }
+  ]
+}

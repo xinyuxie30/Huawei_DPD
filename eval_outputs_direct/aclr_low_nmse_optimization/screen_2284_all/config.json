@@ -1,0 +1,30 @@
+{
+  "models": [
+    "2284"
+  ],
+  "strategies": [
+    "trust",
+    "pcgrad",
+    "alternating"
+  ],
+  "tag": "screen_2284_all",
+  "epochs": 10,
+  "eval_every": 1,
+  "batch_size": 4,
+  "frame_length": 4096,
+  "frame_stride": 2048,
+  "seg_length": 1024,
+  "edge_trim": 256,
+  "fs_mhz": 491.52,
+  "lr": 1e-06,
+  "fir_lr": 2e-07,
+  "spectral_ratio": 0.1,
+  "nmse_margin_db": 0.05,
+  "trust_radius": 0.005,
+  "clip_grad": 1.0,
+  "smooth_temperature": 0.5,
+  "ema_decay": 0.995,
+  "interpolation_step": 0.05,
+  "split": 0.8,
+  "seed": 20260713
+}

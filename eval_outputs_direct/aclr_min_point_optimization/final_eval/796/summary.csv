@@ -1,0 +1,2 @@
+checkpoint,real_multipliers,nmse_linear,nmse_db,reference_error_aclr_lower_db,reference_error_aclr_upper_db,reference_error_aclr_worst_db,ea_tcn_error_aclr_lower_db,ea_tcn_error_aclr_upper_db,ea_tcn_error_aclr_worst_db,ea_tcn_reference_gap_db,psd_path
+best.pth,796,0.0003028215156252734,-35.188132712282034,-45.10452191091548,-45.55231630515425,-45.10452191091548,-40.842157307345545,-41.07878870402271,-40.842157307345545,4.262364603569935,D:\PyChram_project\Huawei_DPD\eval_outputs_direct\aclr_min_point_optimization\final_eval\796\best_psd.png

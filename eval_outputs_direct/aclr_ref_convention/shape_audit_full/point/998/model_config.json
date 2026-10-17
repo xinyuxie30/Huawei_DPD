@@ -1,0 +1,23 @@
+{
+  "model": "998",
+  "real_multipliers": 998,
+  "checkpoint_format": "PhaseSplineDPD raw state_dict",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\active_bin_final2\\998\\best.pth",
+  "offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "grid": 24,
+  "taps_reduction": 14,
+  "base_fir_taps": 39,
+  "output_fir_taps": 25,
+  "metric": "minimum-point ACLR; main=(20,80), adjacent=(-180,-120)/(120,180) MHz",
+  "nmse_limit_db": -37.0,
+  "normalization": "rms",
+  "split": 0.8,
+  "fs_mhz": 491.52,
+  "nperseg": 4096
+}

@@ -1,0 +1,511 @@
+{
+  "format": "PhaseSplineDPD raw state_dict plus explicit reconstruction metadata",
+  "model": "796",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\shape_audit_full\\shape\\796\\best.pth",
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\multires_integrated_r1\\796\\best.pth",
+  "offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "state_inference": {
+    "grid": 24,
+    "base_fir_taps": 41,
+    "output_fir_taps": 27,
+    "taps_reduction": 14,
+    "table_features": 9
+  },
+  "mac": {
+    "base_no_fir": 632,
+    "fir": 108,
+    "corr": 56,
+    "total": 796,
+    "orig_total": 796
+  },
+  "fit_npersegs": [
+    2048,
+    4096,
+    8192
+  ],
+  "official_selection_nperseg": 4096,
+  "bins_per_side": 3,
+  "protocol": {
+    "active_bin_selection": "lowest lower/upper residual-power bins of validation incumbent",
+    "active_bin_selection_uses_targets": true,
+    "coefficient_fit": "L-BFGS on complete training split only",
+    "validation_samples_used_in_lbfgs": false,
+    "trainable_parameters": [
+      "corr.tables"
+    ],
+    "frozen_components": [
+      "base",
+      "base FIR",
+      "wrapper output FIR",
+      "corr.gmin",
+      "corr.gmax"
+    ],
+    "alpha_and_checkpoint_selection": "validation official 4096 point ACLR under hard NMSE",
+    "objective": "normalized train MSE + spectral_weight * mean normalized active-bin power over all fit resolutions + trust_weight * normalized table distance"
+  },
+  "active_bin_history": [
+    {
+      "round": 1,
+      "selection_sequence": "validation incumbent residual",
+      "coefficient_fit_sequence": "complete training split only",
+      "bins": {
+        "2048": [
+          {
+            "side": "lower",
+            "index": 1547,
+            "frequency_mhz": -120.24,
+            "validation_incumbent_power": 0.13690624182063596,
+            "train_incumbent_scale_power": 0.2029610208600759
+          },
+          {
+            "side": "lower",
+            "index": 1426,
+            "frequency_mhz": -149.28,
+            "validation_incumbent_power": 0.13706107855144334,
+            "train_incumbent_scale_power": 0.22416170125165072
+          },
+          {
+            "side": "lower",
+            "index": 1491,
+            "frequency_mhz": -133.68,
+            "validation_incumbent_power": 0.14028775827212267,
+            "train_incumbent_scale_power": 0.21003680503363048
+          },
+          {
+            "side": "upper",
+            "index": 530,
+            "frequency_mhz": 127.19999999999999,
+            "validation_incumbent_power": 0.12812249827429983,
+            "train_incumbent_scale_power": 0.1911397831351303
+          },
+          {
+            "side": "upper",
+            "index": 514,
+            "frequency_mhz": 123.36,
+            "validation_incumbent_power": 0.13356519844440848,
+            "train_incumbent_scale_power": 0.17888424496564098
+          },
+          {
+            "side": "upper",
+            "index": 553,
+            "frequency_mhz": 132.72,
+            "validation_incumbent_power": 0.1368482029520165,
+            "train_incumbent_scale_power": 0.16081180043985505
+          }
+        ],
+        "4096": [
+          {
+            "side": "lower",
+            "index": 3003,
+            "frequency_mhz": -131.16,
+            "validation_incumbent_power": 0.19613286487071868,
+            "train_incumbent_scale_power": 0.35900688615268395
+          },
+          {
+            "side": "lower",
+            "index": 2910,
+            "frequency_mhz": -142.32,
+            "validation_incumbent_power": 0.224288222537982,
+            "train_incumbent_scale_power": 0.45884074834117555
+          },
+          {
+            "side": "lower",
+            "index": 3029,
+            "frequency_mhz": -128.04,
+            "validation_incumbent_power": 0.23706771410614705,
+            "train_incumbent_scale_power": 0.3714636735890928
+          },
+          {
+            "side": "upper",
+            "index": 1107,
+            "frequency_mhz": 132.84,
+            "validation_incumbent_power": 0.19596580719493084,
+            "train_incumbent_scale_power": 0.3445816545352919
+          },
+          {
+            "side": "upper",
+            "index": 1111,
+            "frequency_mhz": 133.32,
+            "validation_incumbent_power": 0.2167838053675983,
+            "train_incumbent_scale_power": 0.3381089886362196
+          },
+          {
+            "side": "upper",
+            "index": 1060,
+            "frequency_mhz": 127.19999999999999,
+            "validation_incumbent_power": 0.22205640551636946,
+            "train_incumbent_scale_power": 0.4199738937561661
+          }
+        ],
+        "8192": [
+          {
+            "side": "lower",
+            "index": 6005,
+            "frequency_mhz": -131.22,
+            "validation_incumbent_power": 0.182459996026443,
+            "train_incumbent_scale_power": 0.8414931549093059
+          },
+          {
+            "side": "lower",
+            "index": 6186,
+            "frequency_mhz": -120.36,
+            "validation_incumbent_power": 0.3052331391385471,
+            "train_incumbent_scale_power": 0.856372225654489
+          },
+          {
+            "side": "lower",
+            "index": 6070,
+            "frequency_mhz": -127.32,
+            "validation_incumbent_power": 0.3232688076138576,
+            "train_incumbent_scale_power": 0.9615684698448888
+          },
+          {
+            "side": "upper",
+            "index": 2222,
+            "frequency_mhz": 133.32,
+            "validation_incumbent_power": 0.2328140522502524,
+            "train_incumbent_scale_power": 0.5925109177164606
+          },
+          {
+            "side": "upper",
+            "index": 2214,
+            "frequency_mhz": 132.84,
+            "validation_incumbent_power": 0.26696269306125286,
+            "train_incumbent_scale_power": 0.6117444142363068
+          },
+          {
+            "side": "upper",
+            "index": 2383,
+            "frequency_mhz": 142.98,
+            "validation_incumbent_power": 0.2806263418064121,
+            "train_incumbent_scale_power": 0.6924913765134295
+          }
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "selection_sequence": "validation incumbent residual",
+      "coefficient_fit_sequence": "complete training split only",
+      "bins": {
+        "2048": [
+          {
+            "side": "lower",
+            "index": 1426,
+            "frequency_mhz": -149.28,
+            "validation_incumbent_power": 0.13733955434361783,
+            "train_incumbent_scale_power": 0.22374805971062234
+          },
+          {
+            "side": "lower",
+            "index": 1547,
+            "frequency_mhz": -120.24,
+            "validation_incumbent_power": 0.13752497927014232,
+            "train_incumbent_scale_power": 0.20126737975909847
+          },
+          {
+            "side": "lower",
+            "index": 1491,
+            "frequency_mhz": -133.68,
+            "validation_incumbent_power": 0.13924368630296496,
+            "train_incumbent_scale_power": 0.20756812890743667
+          },
+          {
+            "side": "upper",
+            "index": 530,
+            "frequency_mhz": 127.19999999999999,
+            "validation_incumbent_power": 0.1281884996089626,
+            "train_incumbent_scale_power": 0.18789729335076066
+          },
+          {
+            "side": "upper",
+            "index": 514,
+            "frequency_mhz": 123.36,
+            "validation_incumbent_power": 0.13305318510735378,
+            "train_incumbent_scale_power": 0.17609090685581885
+          },
+          {
+            "side": "upper",
+            "index": 553,
+            "frequency_mhz": 132.72,
+            "validation_incumbent_power": 0.1356916163909755,
+            "train_incumbent_scale_power": 0.1569139756277949
+          }
+        ],
+        "4096": [
+          {
+            "side": "lower",
+            "index": 3003,
+            "frequency_mhz": -131.16,
+            "validation_incumbent_power": 0.19490546380945278,
+            "train_incumbent_scale_power": 0.35246658744385456
+          },
+          {
+            "side": "lower",
+            "index": 2910,
+            "frequency_mhz": -142.32,
+            "validation_incumbent_power": 0.22638274348870477,
+            "train_incumbent_scale_power": 0.4524801269006763
+          },
+          {
+            "side": "lower",
+            "index": 3029,
+            "frequency_mhz": -128.04,
+            "validation_incumbent_power": 0.23489618075457386,
+            "train_incumbent_scale_power": 0.3670151298438607
+          },
+          {
+            "side": "upper",
+            "index": 1107,
+            "frequency_mhz": 132.84,
+            "validation_incumbent_power": 0.19828912373511925,
+            "train_incumbent_scale_power": 0.3350315980454282
+          },
+          {
+            "side": "upper",
+            "index": 1111,
+            "frequency_mhz": 133.32,
+            "validation_incumbent_power": 0.21465839893553482,
+            "train_incumbent_scale_power": 0.32823536081516785
+          },
+          {
+            "side": "upper",
+            "index": 1060,
+            "frequency_mhz": 127.19999999999999,
+            "validation_incumbent_power": 0.22067137622023006,
+            "train_incumbent_scale_power": 0.410308660936708
+          }
+        ],
+        "8192": [
+          {
+            "side": "lower",
+            "index": 6005,
+            "frequency_mhz": -131.22,
+            "validation_incumbent_power": 0.18247670320767514,
+            "train_incumbent_scale_power": 0.8186984492977468
+          },
+          {
+            "side": "lower",
+            "index": 6186,
+            "frequency_mhz": -120.36,
+            "validation_incumbent_power": 0.31151799250405815,
+            "train_incumbent_scale_power": 0.8355849424856138
+          },
+          {
+            "side": "lower",
+            "index": 6070,
+            "frequency_mhz": -127.32,
+            "validation_incumbent_power": 0.31973021295688603,
+            "train_incumbent_scale_power": 0.9458939924562554
+          },
+          {
+            "side": "upper",
+            "index": 2222,
+            "frequency_mhz": 133.32,
+            "validation_incumbent_power": 0.226850816015797,
+            "train_incumbent_scale_power": 0.572399281950848
+          },
+          {
+            "side": "upper",
+            "index": 2214,
+            "frequency_mhz": 132.84,
+            "validation_incumbent_power": 0.2709737049019561,
+            "train_incumbent_scale_power": 0.5870622360621612
+          },
+          {
+            "side": "upper",
+            "index": 2383,
+            "frequency_mhz": 142.98,
+            "validation_incumbent_power": 0.2757196693126323,
+            "train_incumbent_scale_power": 0.6737530512467098
+          }
+        ]
+      }
+    }
+  ],
+  "selected_active_bins": {
+    "2048": [
+      {
+        "side": "lower",
+        "index": 1547,
+        "frequency_mhz": -120.24,
+        "validation_incumbent_power": 0.13690624182063596,
+        "train_incumbent_scale_power": 0.2029610208600759
+      },
+      {
+        "side": "lower",
+        "index": 1426,
+        "frequency_mhz": -149.28,
+        "validation_incumbent_power": 0.13706107855144334,
+        "train_incumbent_scale_power": 0.22416170125165072
+      },
+      {
+        "side": "lower",
+        "index": 1491,
+        "frequency_mhz": -133.68,
+        "validation_incumbent_power": 0.14028775827212267,
+        "train_incumbent_scale_power": 0.21003680503363048
+      },
+      {
+        "side": "upper",
+        "index": 530,
+        "frequency_mhz": 127.19999999999999,
+        "validation_incumbent_power": 0.12812249827429983,
+        "train_incumbent_scale_power": 0.1911397831351303
+      },
+      {
+        "side": "upper",
+        "index": 514,
+        "frequency_mhz": 123.36,
+        "validation_incumbent_power": 0.13356519844440848,
+        "train_incumbent_scale_power": 0.17888424496564098
+      },
+      {
+        "side": "upper",
+        "index": 553,
+        "frequency_mhz": 132.72,
+        "validation_incumbent_power": 0.1368482029520165,
+        "train_incumbent_scale_power": 0.16081180043985505
+      }
+    ],
+    "4096": [
+      {
+        "side": "lower",
+        "index": 3003,
+        "frequency_mhz": -131.16,
+        "validation_incumbent_power": 0.19613286487071868,
+        "train_incumbent_scale_power": 0.35900688615268395
+      },
+      {
+        "side": "lower",
+        "index": 2910,
+        "frequency_mhz": -142.32,
+        "validation_incumbent_power": 0.224288222537982,
+        "train_incumbent_scale_power": 0.45884074834117555
+      },
+      {
+        "side": "lower",
+        "index": 3029,
+        "frequency_mhz": -128.04,
+        "validation_incumbent_power": 0.23706771410614705,
+        "train_incumbent_scale_power": 0.3714636735890928
+      },
+      {
+        "side": "upper",
+        "index": 1107,
+        "frequency_mhz": 132.84,
+        "validation_incumbent_power": 0.19596580719493084,
+        "train_incumbent_scale_power": 0.3445816545352919
+      },
+      {
+        "side": "upper",
+        "index": 1111,
+        "frequency_mhz": 133.32,
+        "validation_incumbent_power": 0.2167838053675983,
+        "train_incumbent_scale_power": 0.3381089886362196
+      },
+      {
+        "side": "upper",
+        "index": 1060,
+        "frequency_mhz": 127.19999999999999,
+        "validation_incumbent_power": 0.22205640551636946,
+        "train_incumbent_scale_power": 0.4199738937561661
+      }
+    ],
+    "8192": [
+      {
+        "side": "lower",
+        "index": 6005,
+        "frequency_mhz": -131.22,
+        "validation_incumbent_power": 0.182459996026443,
+        "train_incumbent_scale_power": 0.8414931549093059
+      },
+      {
+        "side": "lower",
+        "index": 6186,
+        "frequency_mhz": -120.36,
+        "validation_incumbent_power": 0.3052331391385471,
+        "train_incumbent_scale_power": 0.856372225654489
+      },
+      {
+        "side": "lower",
+        "index": 6070,
+        "frequency_mhz": -127.32,
+        "validation_incumbent_power": 0.3232688076138576,
+        "train_incumbent_scale_power": 0.9615684698448888
+      },
+      {
+        "side": "upper",
+        "index": 2222,
+        "frequency_mhz": 133.32,
+        "validation_incumbent_power": 0.2328140522502524,
+        "train_incumbent_scale_power": 0.5925109177164606
+      },
+      {
+        "side": "upper",
+        "index": 2214,
+        "frequency_mhz": 132.84,
+        "validation_incumbent_power": 0.26696269306125286,
+        "train_incumbent_scale_power": 0.6117444142363068
+      },
+      {
+        "side": "upper",
+        "index": 2383,
+        "frequency_mhz": 142.98,
+        "validation_incumbent_power": 0.2806263418064121,
+        "train_incumbent_scale_power": 0.6924913765134295
+      }
+    ]
+  },
+  "selection": {
+    "candidate_id": "candidate_000167",
+    "description": "round=1 weight=1 alpha=0.1",
+    "objective": "integrated",
+    "max_point_regression_db": 0.1,
+    "nmse_limit_db": -35.0
+  },
+  "metrics_by_nperseg": {
+    "2048": {
+      "nmse_linear": 0.00027955471690985364,
+      "nmse_db": -35.53533175518925,
+      "point_lower_db": -40.132280507401234,
+      "point_upper_db": -40.431746202108954,
+      "point_worst_db": -40.132280507401234,
+      "point_lower_mhz": -149.28,
+      "point_upper_mhz": 127.2,
+      "integrated_aclr_db": -40.3866356847775,
+      "integrated_lower_db": -43.26269758386013,
+      "integrated_upper_db": -43.53545562803891
+    },
+    "4096": {
+      "nmse_linear": 0.00027955471690985364,
+      "nmse_db": -35.53533175518925,
+      "point_lower_db": -41.30533846250556,
+      "point_upper_db": -41.23058966597705,
+      "point_worst_db": -41.23058966597705,
+      "point_lower_mhz": -131.16,
+      "point_upper_mhz": 132.84,
+      "integrated_aclr_db": -40.364917111942546,
+      "integrated_lower_db": -43.23477460530641,
+      "integrated_upper_db": -43.52035338318224
+    },
+    "8192": {
+      "nmse_linear": 0.00027955471690985364,
+      "nmse_db": -35.53533175518925,
+      "point_lower_db": -43.22546311961156,
+      "point_upper_db": -42.28013392110131,
+      "point_worst_db": -42.28013392110131,
+      "point_lower_mhz": -131.22,
+      "point_upper_mhz": 133.32,
+      "integrated_aclr_db": -40.37849425250441,
+      "integrated_lower_db": -43.23521872558604,
+      "integrated_upper_db": -43.54800015128536
+    }
+  }
+}

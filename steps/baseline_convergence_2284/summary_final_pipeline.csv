@@ -1,0 +1,6 @@
+model,label,real_multipliers,best_epoch,best_validation_nmse_db,deployment_validation_nmse_db,training_source
+ea_tcn,EA-TCN(2284),2284,152,-40.01316071,-40.10102272,2492 base training -> FIR43 pruning -> train-only LS
+memory_poly,Memory polynomial (2280),2280,131,-28.04163694,,capacity-matched GPU baseline run
+plain_tcn,TCN (2276),2276,149,-33.39300394,,capacity-matched GPU baseline run
+no_attention,EA-TCN no attention (2284),2284,142,-38.58328581,-38.81104946,capacity-matched GPU baseline run
+no_fir,EA-TCN no FIR (2292),2292,147,-36.83206081,,capacity-matched GPU baseline run

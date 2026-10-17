@@ -1,0 +1,2 @@
+model,round,pair,lower_train_mhz,upper_train_mhz,spectral_weight,alpha,lbfgs_loss,closure_calls,nmse_linear,nmse_db,point_lower_db,point_upper_db,point_worst_db,point_lower_mhz,point_upper_mhz,integrated_aclr_db
+796,1,0,-149.28,127.19999999999999,0.0,0.0,1.0,2,0.00029273332998025405,-35.33527826925868,-40.068716633279195,-40.377254168307374,-40.068716633279195,-149.28,127.2,-40.36792165123637

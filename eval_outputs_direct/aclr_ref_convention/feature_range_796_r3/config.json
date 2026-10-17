@@ -1,0 +1,65 @@
+{
+  "models": [
+    "796"
+  ],
+  "checkpoint_root": "eval_outputs_direct/aclr_ref_convention/fir_pointsweep",
+  "checkpoint": "eval_outputs_direct\\aclr_ref_convention\\final_optimized\\796\\best.pth",
+  "offsets": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "tag": "feature_range_796_r3",
+  "range_scales": null,
+  "quantiles": [
+    [
+      0.006,
+      0.994
+    ],
+    [
+      0.0065,
+      0.9935
+    ],
+    [
+      0.007,
+      0.993
+    ],
+    [
+      0.0075,
+      0.9925
+    ],
+    [
+      0.008,
+      0.992
+    ],
+    [
+      0.0085,
+      0.9915
+    ],
+    [
+      0.009,
+      0.991
+    ]
+  ],
+  "spectral_weights": [
+    0.1,
+    1.0,
+    3.0
+  ],
+  "trust_weight": 0.0001,
+  "lbfgs_lr": 1.0,
+  "lbfgs_iters": 25,
+  "lbfgs_history": 20,
+  "lbfgs_tolerance_grad": 1e-09,
+  "lbfgs_tolerance_change": 1e-12,
+  "alpha_min": 0.0,
+  "alpha_max": 2.0,
+  "alpha_step": 0.05,
+  "nperseg": 4096,
+  "fs_mhz": 491.52,
+  "split": 0.8,
+  "seed": 20260714,
+  "smoke": false
+}

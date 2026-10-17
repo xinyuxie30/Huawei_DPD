@@ -1,0 +1,6 @@
+model,label,real_multipliers,trainable_parameters,best_epoch,best_validation_nmse_db,final_validation_nmse_db,post_ls_validation_nmse_db,training_seconds
+ea_tcn,EA-TCN,2284,2192,150,-38.88396740,-38.88396740,-39.04379368,94.918
+memory_poly,Memory polynomial,2280,1140,131,-28.04163694,-28.04144859,,36.604
+plain_tcn,Plain TCN,2276,2274,149,-33.39300394,-33.33550930,,60.067
+no_attention,EA-TCN w/o attention,2284,2192,142,-38.58328581,-38.32321644,-38.81104946,92.894
+no_fir,EA-TCN w/o FIR,2292,2286,147,-36.83206081,-36.72608614,,80.455

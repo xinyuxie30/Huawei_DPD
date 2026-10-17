@@ -1,0 +1,12 @@
+{
+  "model": "786",
+  "source_checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\lag_topology_search_r2\\786\\best.pth",
+  "nmse_target_db": -35.0,
+  "alpha": 3.0,
+  "nmse_linear": 0.0002961194810880419,
+  "nmse_db": -35.285330203353496,
+  "aclr_lower_db": -42.24050177471847,
+  "aclr_upper_db": -42.27872192967499,
+  "aclr_worst_db": -42.24050177471847,
+  "checkpoint": "D:\\PyChram_project\\Huawei_DPD\\eval_outputs_direct\\aclr_ref_convention\\final_alt_minpoint\\786\\best_extrapolated.pth"
+}
