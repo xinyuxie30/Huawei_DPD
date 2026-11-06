@@ -1,237 +1,81 @@
-# Huawei_DPD 最终项目包说明
+# Huawei DPD：轻量级 AI 数字预失真
 
-本项目用于第三届华为无线“声光电磁”硬件创新竞赛 E3 轻量级 AI DPD 任务。当前默认任务口径为：
+这是第三届华为无线“声光电磁”硬件创新竞赛 E3 赛题的项目记录。我们尝试用一个计算量受限的神经网络学习数字预失真（DPD）：给定输入信号 `x`，模型预测数据集提供的目标信号 `target_y`，希望在控制硬件计算量的同时，减小预测误差和邻道频谱泄漏。
 
-```text
-pred_y = f(x)
+仓库里保留了模型、训练与评估脚本，以及不同计算量下的实验记录。如果只是想了解项目，可以先看下面的结果；需要复现时，再看运行说明和评估口径。
+
+## 项目做了什么
+
+- 使用时序卷积网络（TCN）处理 I/Q 信号，并结合包络特征、多项式旁路和输出 FIR 滤波。
+- 比较约 2,000、1,000 和 800 个实乘法器量级的模型，观察模型误差与计算量之间的取舍。这里的实乘法器数量是项目中的复杂度估计，不等同于已经完成的硬件资源实测。
+- 用同一份数据的前 80% 训练、后 20% 验证，记录 NMSE 和频谱相关结果。
+
+## 已保存的实验结果
+
+下表摘自仓库中已有的 `eval_outputs_direct/unified_eval/summary.csv`；它反映的是这份历史结果文件，不代表本次重新运行的结果。
+
+| 模型 | 实乘法器数 | 验证 NMSE | 已保存的 worst ACLR |
+| --- | ---: | ---: | ---: |
+| H15/L6，FIR 43 | 2,284 | -40.15 dB | -42.98 dBc |
+| H15/L6，FIR 39 | 2,268 | -40.03 dB | -42.80 dBc |
+| H10/L4，FIR 39 | 998 | -37.37 dB | -40.09 dBc |
+| H10/L4，低秩，FIR 41 | 786 | -35.46 dB | -38.51 dBc |
+| H10/L3，FIR 41 | 796 | -35.20 dB | -38.03 dBc |
+
+历史记录中，前两个模型的 NMSE 达到 `≤ -40 dB`，但表中的 ACLR 均未达到 `≤ -45 dBc`。这些数值不能脱离所用频段和计算方法比较。
+
+**评估口径需要注意：**旧 README 把 ACLR 写成频带平均值之差，而当前 `steps/final_evaluate_unified.py` 使用各频带 PSD 最低点计算。保存的 CSV 与当前脚本的输出字段也不同。表中数值应作为历史记录；如果要按当前脚本报告或比较结果，请重新评估并注明算法、频段与权重版本，不要直接把两种口径混用。
+
+## 如何运行
+
+以下命令在项目根目录执行。脚本使用 Python、PyTorch、NumPy、SciPy 和 Matplotlib；仓库未提供锁定版本的环境文件，因此需要先按自己的 Python 与计算设备配置依赖。
+
+```bash
+python -m pip install numpy scipy matplotlib torch
 ```
 
-即根据数据集输入 `x` 拟合官方数据集给出的目标输出 `target_y`。验证集按全序列前 80% / 后 20% 切分，核心指标为验证集 NMSE 和 PSD 计算得到的 worst-band ACLR。
+确认 `data/DPD_data.mat` 可用后，可以从头训练主模型：
 
-## 目录结构
-
-```text
-data/                         官方 DPD_data.mat
-steps/                        最终保留训练与评估脚本
-checkpoints/AI-DPD/           规范命名的最终权重
-eval_outputs_direct/figures/  PSD/ACLR/收敛曲线展示图
-eval_outputs_direct/unified_eval/ 统一评估 CSV 与 PSD 图
-reports/                      阶段总结与模型桶总结文档
-final_release/                可直接打包提交的整理版项目包
-other/final_cleanup_20260629/ 历史脚本、旧权重、旧图和中间文件归档
+```bash
+python -B steps/final_train_main_2284.py --no-fallback-scan
 ```
 
-## 最终模型
+默认最多训练 500 个 epoch，运行时间取决于设备和数据；重新训练不保证得到表中的完全相同结果。
 
-| 用途 | 结构 | 实乘法器 | 验证 NMSE | worst ACLR | 权重 |
-|---|---:|---:|---:|---:|---|
-| 推荐主模型 | H15/L6/Input-9/FIR43 | 2284 | -40.15 dB | -42.98 dBc | `checkpoints/AI-DPD/final_main_H15_L6_rich9_FIR43_2284_NMSE40p15_ACLR48p77.pth` |
-| 最小达标模型 | H15/L6/Input-9/FIR39 | 2268 | -40.03 dB | -42.80 dBc | `checkpoints/AI-DPD/final_minimal_H15_L6_rich9_FIR39_2268_NMSE40p03_ACLR45p04.pth` |
-| 单脚本备份 | H15/L6/Input-9/FIR55 | 2332 | -40.00 dB | -42.79 dBc | `checkpoints/AI-DPD/final_backup_H15_L6_rich9_FIR55_2332_NMSE40p00_ACLR47p11.pth` |
-| 1000 内轻量参考 | H10/L4/Input-9/attn4/FIR39 | 998 | -37.37 dB | -40.09 dBc | `checkpoints/AI-DPD/final_lightweight_998_rich9_attn4_FIR39_NMSE37p37_ACLR45p30.pth` |
-| 800 内低秩参考 | H10/L4/Input-6/rank3/FIR41 | 786 | -35.46 dB | -38.51 dBc | `checkpoints/AI-DPD/step800_scratch_h10_l4_base6_rank3_fir41_786.pth` |
-| 800 内基线参考 | H10/L3/Input-6/FIR41 | 796 | -35.20 dB | -38.03 dBc | `checkpoints/AI-DPD/final_lightweight_796_H10_L3_FIR41_scratch_retrain.pth` |
+如果已有主模型权重，可以单独运行评估：
 
-说明：在新频带 `[20,80] / [-180,-120] / [120,180] MHz` 下，数据集参考 ACLR 为 `-43.74 dBc`，因此上述模型均不满足原 `<= -45 dBc` 门限；2284/2268/2332 MAC 模型仍满足 NMSE `<= -40 dB`。
-
-## 786 模型参数
-
-| 项目 | 参数 |
-|---|---|
-| preset | `h10_l4_base6_rank3_fir41_786` |
-| 结构 | H10/L4/Input-6/pointwise-rank3/FIR41 |
-| 输入特征 | `[I[n], Q[n], I[n+1], Q[n+1], r[n], r[n]^3]` |
-| TCN dilation | `[1, 2, 4, 8]` |
-| temporal kernel | 5 |
-| attention | 3 通道包络门控 `[r, r^3, r^7]` |
-| polynomial bypass | 1/3/5 阶复数旁路 |
-| output FIR | 41 taps complex FIR |
-| 训练方式 | scratch-only，`teacher-mode none`，无蒸馏 |
-| 统一评估结果 | NMSE -35.46196 dB，worst ACLR -38.50851 dBc |
-
-乘法器拆解：
-
-```text
-P=3, C_in=6, H=10, B=4, K=5, rank=3, C_a=3, M=41
-C_real = 4P + C_in*H + B*(H*K + 2*H*rank) + 2H + 3*H*C_a + 4M
-       = 12 + 60 + 4*(50 + 60) + 20 + 90 + 164
-       = 786
+```bash
+python -B steps/final_train_main_2284.py --evaluate-only
 ```
 
-## 指标口径
+**权重文件不会随此本地 Git 快照提交。**仓库的 `.gitignore` 排除了 `checkpoints/` 和 `*.pth`；上述评估命令需要先训练得到权重，或自行提供与脚本匹配的权重文件。默认路径可通过 `--final-checkpoint` 修改。
 
-```text
-NMSE = sum(|pred_y - target_y|^2) / sum(|target_y|^2)
-NMSE_dB = 10 * log10(NMSE)
+要使用统一评估脚本，可显式指定已有权重和输出目录，例如：
 
-error = target_y - pred_y
-ACLR_dBc = mean(PSD_error_adjacent_band) - mean(PSD_target_y_main_band)
-worst ACLR = max(lower ACLR, upper ACLR)
-
-dataset reference ACLR uses DPD_data.mat error in place of model error
-
-main band:      [20, 80] MHz
-lower adjacent: [-180, -120] MHz
-upper adjacent: [120, 180] MHz
-sample rate:    491.52 MHz
-target:         worst ACLR <= -45 dBc
+```bash
+python -B steps/final_evaluate_unified.py --checkpoint checkpoints/AI-DPD/final_main_H15_L6_rich9_FIR43_2284_NMSE40p15_ACLR48p77.pth --out-dir eval_outputs_direct/my_eval
 ```
 
-## 主要脚本
+脚本会在输出目录写入 `summary.csv` 和 PSD 图；重复运行可能覆盖同名输出。权重文件名中带有旧实验指标，不能将文件名里的 ACLR 数字直接当作当前评估结果。
 
-```text
-steps/AI-DPD.py
-```
+## 指标与频段
 
-共享模型定义、数据加载、统一 NMSE/ACLR/PSD 评估与绘图模块。
+- **NMSE**：预测信号相对目标信号的归一化均方误差；这里以 dB 表示。
+- **worst ACLR**：分别计算上下邻道后取较差的一侧；数值的含义取决于所采用的频带统计方法。
+- 当前统一评估脚本默认采样率为 `491.52 MHz`，主频带为 `[20, 80] MHz`，下邻道为 `[-180, -120] MHz`，上邻道为 `[120, 180] MHz`。
 
-```text
-steps/final_train_main_2284.py
-```
+## 主要文件
 
-主模型、最小达标模型和备份模型的训练/导出脚本。三者共享 H15/L6/Input-9 主干，区别是最终输出 FIR taps。
+| 路径 | 内容 |
+| --- | --- |
+| `data/DPD_data.mat` | 项目使用的数据文件 |
+| `steps/AI-DPD.py` | 模型、数据加载及评估工具 |
+| `steps/final_train_main_2284.py` | 主模型训练与评估入口 |
+| `steps/final_train_lightweight_999_distill.py` | 轻量模型实验入口 |
+| `steps/step800_scratch_innovative.py` | 800 实乘法器量级的低秩模型实验 |
+| `steps/final_evaluate_unified.py` | 指定权重的统一评估与绘图 |
+| `eval_outputs_direct/` | 已保存的评估结果和图 |
+| `reports/` | 阶段性实验总结 |
+| `other/final_cleanup_20260629/` | 历史实验与中间材料归档 |
 
-```text
-steps/final_train_lightweight_999_distill.py
-```
-
-轻量学生模型脚本，支持 796/786/998 等低复杂度配置，并支持 `--evaluate-only` 重绘 PSD/ACLR 图。
-
-```text
-steps/step800_scratch_innovative.py
-```
-
-800 MAC 内 scratch-only 低秩搜索脚本，786 模型的原始训练入口。
-
-```text
-steps/final_evaluate_unified.py
-```
-
-统一批量评估入口，用于对 checkpoint 输出线性 NMSE、dB NMSE、实乘法器数、ACLR 和 PSD 图。
-
-## 完整训练命令
-
-先进入项目根目录：
-
-```powershell
-cd D:\PyChram_project\Huawei_DPD
-```
-
-训练 2284 MAC 推荐主模型：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\final_train_main_2284.py --final-fir-taps 43 --no-fallback-scan --final-checkpoint .\checkpoints\AI-DPD\final_main_H15_L6_rich9_FIR43_2284_NMSE40p15_ACLR48p77.pth --figure-prefix final_main_H15_L6_rich9_FIR43_2284
-```
-
-训练 2268 MAC 最小达标模型：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\final_train_main_2284.py --final-fir-taps 39 --no-fallback-scan --final-checkpoint .\checkpoints\AI-DPD\final_minimal_H15_L6_rich9_FIR39_2268_NMSE40p03_ACLR45p04.pth --figure-prefix final_minimal_H15_L6_rich9_FIR39_2268
-```
-
-训练 2332 MAC 备份模型：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\final_train_main_2284.py --final-fir-taps 55 --no-fallback-scan --final-checkpoint .\checkpoints\AI-DPD\final_backup_H15_L6_rich9_FIR55_2332_NMSE40p00_ACLR47p11.pth --figure-prefix final_backup_H15_L6_rich9_FIR55_2332
-```
-
-训练 998 MAC 轻量参考模型：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\final_train_lightweight_999_distill.py --student-preset h10_l4_rich9_attn4_fir39_998 --teacher-mode load --teacher-checkpoint .\checkpoints\AI-DPD\final_main_H15_L6_rich9_FIR43_2284_NMSE40p15_ACLR48p77.pth --final-checkpoint .\checkpoints\AI-DPD\final_lightweight_998_rich9_attn4_FIR39_NMSE37p37_ACLR45p30.pth --output-prefix final_lightweight_998_rich9_attn4_FIR39
-```
-
-训练 786 MAC 低秩参考模型：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\step800_scratch_innovative.py --variant h10_l4_base6_rank3_fir41
-```
-
-训练 796 MAC 800 内基线模型：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\final_train_lightweight_999_distill.py --student-preset h10_l3_base6_fir41_796 --teacher-mode none --distill-loss-weight 0 --distill-diff-weight 0 --final-checkpoint .\checkpoints\AI-DPD\final_lightweight_796_H10_L3_FIR41_scratch_retrain.pth --output-prefix final_lightweight_796_H10_L3_FIR41_scratch_retrain
-```
-
-## 评估命令
-
-统一批量评估所有最终 checkpoint：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\final_evaluate_unified.py
-```
-
-只评估 786 MAC 模型并重绘 PSD/ACLR 图：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\step800_scratch_innovative.py --variant h10_l4_base6_rank3_fir41 --evaluate-only
-```
-
-只评估 796 MAC 模型并重绘 PSD/ACLR 图：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\final_train_lightweight_999_distill.py --evaluate-only --student-preset h10_l3_base6_fir41_796 --final-checkpoint .\checkpoints\AI-DPD\final_lightweight_796_H10_L3_FIR41_scratch_retrain.pth --output-prefix final_lightweight_796_H10_L3_FIR41_scratch_retrain
-```
-
-只评估 998 MAC 模型并重绘 PSD/ACLR 图：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\final_train_lightweight_999_distill.py --evaluate-only --student-preset h10_l4_rich9_attn4_fir39_998 --final-checkpoint .\checkpoints\AI-DPD\final_lightweight_998_rich9_attn4_FIR39_NMSE37p37_ACLR45p30.pth --output-prefix final_lightweight_998_rich9_attn4_FIR39
-```
-
-只评估主模型：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\final_train_main_2284.py --evaluate-only
-```
-
-评估最小达标/备份模型时指定 FIR taps、checkpoint 和图名前缀：
-
-```powershell
-& D:\anconda\envs\pytorch\python.exe -B .\steps\final_train_main_2284.py --evaluate-only --final-fir-taps 39 --final-checkpoint .\checkpoints\AI-DPD\final_minimal_H15_L6_rich9_FIR39_2268_NMSE40p03_ACLR45p04.pth --figure-prefix final_minimal_H15_L6_rich9_FIR39_2268
-& D:\anconda\envs\pytorch\python.exe -B .\steps\final_train_main_2284.py --evaluate-only --final-fir-taps 55 --final-checkpoint .\checkpoints\AI-DPD\final_backup_H15_L6_rich9_FIR55_2332_NMSE40p00_ACLR47p11.pth --figure-prefix final_backup_H15_L6_rich9_FIR55_2332
-```
-
-## 展示图
-
-最终展示图统一放在：
-
-```text
-eval_outputs_direct/figures/
-```
-
-核心图片：
-
-```text
-final_main_H15_L6_rich9_FIR43_2284_psd_aclr.png
-final_main_H15_L6_rich9_FIR43_2284_aclr_bar.png
-final_minimal_H15_L6_rich9_FIR39_2268_psd_aclr.png
-final_minimal_H15_L6_rich9_FIR39_2268_aclr_bar.png
-final_backup_H15_L6_rich9_FIR55_2332_psd_aclr.png
-final_backup_H15_L6_rich9_FIR55_2332_aclr_bar.png
-final_lightweight_998_rich9_attn4_FIR39_psd_aclr.png
-final_lightweight_998_rich9_attn4_FIR39_aclr_bar.png
-step800_scratch_h10_l4_base6_rank3_fir41_786_psd_aclr.png
-step800_scratch_h10_l4_base6_rank3_fir41_786_aclr_bar.png
-step800_scratch_h10_l4_base6_rank3_fir41_786_convergence.png
-final_lightweight_796_H10_L3_FIR41_scratch_retrain_psd_aclr.png
-final_lightweight_796_H10_L3_FIR41_scratch_retrain_aclr_bar.png
-```
-
-## 报告文件
-
-```text
-reports/TCN_999_experiment_summary_2026-06-28.md
-reports/step800_scratch_innovative_summary_2026-06-29.md
-steps/step800_nmse_search_summary_2026-07-03.md
-```
-
-## 归档说明
-
-历史实验脚本、旧 checkpoint、旧图像、中间渲染文件和临时工具目录已移动到：
-
-```text
-other/final_cleanup_20260629/
-```
-
-这些文件仅用于追溯实验过程，不作为最终项目包默认入口。
+本项目是竞赛实验记录；结果受数据、模型权重和评估口径影响，不应视为已完成实机部署或硬件性能验证。
